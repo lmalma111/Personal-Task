@@ -26,12 +26,14 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Optionally store the created object.")]
 		public FsmGameObject storeObject;
 
+		#if PLAYMAKER_LEGACY_NETWORK
 		[Tooltip("Use Network.Instantiate to create a Game Object on all clients in a networked game.")]
 		public FsmBool networkInstantiate;
 
 		[Tooltip("Usually 0. The group number allows you to group together network messages which allows you to filter them if so desired.")]
 		public FsmInt networkGroup;
 
+		#endif
 		public override void Reset()
 		{
 			gameObject = null;
@@ -39,8 +41,10 @@ namespace HutongGames.PlayMaker.Actions
 			position = new FsmVector3 { UseVariable = true };
 			rotation = new FsmVector3 { UseVariable = true };
 			storeObject = null;
+			#if PLAYMAKER_LEGACY_NETWORK
 			networkInstantiate = false;
 			networkGroup = 0;
+			#endif			
 		}
 
 		public override void OnEnter()
@@ -76,7 +80,7 @@ namespace HutongGames.PlayMaker.Actions
 					}
                 }
 
-#if !(UNITY_FLASH || UNITY_NACL || UNITY_METRO || UNITY_WP8 || UNITY_WIIU || UNITY_PSM || UNITY_WEBGL || UNITY_PS3 || UNITY_PS4 || UNITY_XBOXONE)
+#if PLAYMAKER_LEGACY_NETWORK && !(UNITY_FLASH || UNITY_NACL || UNITY_METRO || UNITY_WP8 || UNITY_WIIU || UNITY_PSM || UNITY_WEBGL || UNITY_PS3 || UNITY_PS4 || UNITY_XBOXONE)
                 GameObject newObject;
 
 				if (!networkInstantiate.Value)

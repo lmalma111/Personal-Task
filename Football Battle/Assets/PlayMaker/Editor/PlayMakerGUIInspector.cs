@@ -2,18 +2,28 @@
 
 using HutongGames.PlayMakerEditor;
 using UnityEditor;
+using UnityEditor.Callbacks;
 using UnityEngine;
 
 [CustomEditor(typeof(PlayMakerGUI))]
-class PlayMakerGUIInspector : Editor
+public class PlayMakerGUIInspector : Editor
 {
 	private PlayMakerGUI guiComponent;
 
-	void OnEnable()
+    [PostProcessScene]
+    public static void OnPostprocessScene()
+    {
+        // Make sure global setting is applied to all PlayMakerGUIs in build
+        PlayMakerGUI.EnableStateLabels = EditorPrefs.GetBool(EditorPrefStrings.ShowStateLabelsInGameView);
+        PlayMakerGUI.EnableStateLabelsInBuild = EditorPrefs.GetBool(EditorPrefStrings.ShowStateLabelsInBuild);
+    }
+
+    public void OnEnable()
 	{
 		guiComponent = (PlayMakerGUI) target;
 
 		guiComponent.drawStateLabels = EditorPrefs.GetBool(EditorPrefStrings.ShowStateLabelsInGameView);
+        guiComponent.enableStateLabelsInBuilds = EditorPrefs.GetBool(EditorPrefStrings.ShowStateLabelsInBuild);
 
 		CheckForDuplicateComponents();
 	}
@@ -45,17 +55,25 @@ class PlayMakerGUIInspector : Editor
 		EditorGUI.indentLevel = 1;
 
 		var drawStateLabels = EditorGUILayout.Toggle(new GUIContent(Strings.Label_Draw_Active_State_Labels, Strings.Tooltip_Draw_Active_State_Labels), guiComponent.drawStateLabels);
-
 		if (drawStateLabels != guiComponent.drawStateLabels)
 		{
 			guiComponent.drawStateLabels = drawStateLabels;
-			EditorPrefs.SetBool(EditorPrefStrings.ShowStateLabelsInGameView, drawStateLabels);
+		    FsmEditorSettings.ShowStateLabelsInGameView = drawStateLabels;
+            FsmEditorSettings.SaveSettings();
 		}
 
-		GUI.enabled = guiComponent.drawStateLabels;
-		//EditorGUI.indentLevel = 2;
+        GUI.enabled = guiComponent.drawStateLabels;
+        //EditorGUI.indentLevel = 2;
 
-		guiComponent.GUITextureStateLabels = EditorGUILayout.Toggle(new GUIContent(Strings.Label_GUITexture_State_Labels, Strings.Tooltip_GUITexture_State_Labels), guiComponent.GUITextureStateLabels);
+        var enableStateLabelsInBuilds = EditorGUILayout.Toggle(new GUIContent(Strings.Label_Enable_State_Labels_in_Builds, Strings.Tooltip_Show_State_Labels_in_Standalone_Builds), guiComponent.enableStateLabelsInBuilds);
+        if (enableStateLabelsInBuilds != guiComponent.enableStateLabelsInBuilds)
+        {
+            guiComponent.enableStateLabelsInBuilds = enableStateLabelsInBuilds;
+            FsmEditorSettings.ShowStateLabelsInBuild = enableStateLabelsInBuilds;
+            FsmEditorSettings.SaveSettings();
+        }
+        
+        guiComponent.GUITextureStateLabels = EditorGUILayout.Toggle(new GUIContent(Strings.Label_GUITexture_State_Labels, Strings.Tooltip_GUITexture_State_Labels), guiComponent.GUITextureStateLabels);
 		guiComponent.GUITextStateLabels = EditorGUILayout.Toggle(new GUIContent(Strings.Label_GUIText_State_Labels, Strings.Tooltip_GUIText_State_Labels), guiComponent.GUITextStateLabels);
 
 		GUI.enabled = true;
@@ -66,6 +84,12 @@ class PlayMakerGUIInspector : Editor
 		GUI.enabled = guiComponent.filterLabelsWithDistance;
 
 		guiComponent.maxLabelDistance = EditorGUILayout.FloatField(new GUIContent(Strings.Label_Camera_Distance, Strings.Tooltip_Camera_Distance), guiComponent.maxLabelDistance);
+
+        GUI.enabled = true;
+
+        guiComponent.labelScale = EditorGUILayout.FloatField (new GUIContent (Strings.Label_State_Label_Scale, Strings.Tooltip_State_Label_Scale), guiComponent.labelScale);
+	    if (guiComponent.labelScale < 0.1f) guiComponent.labelScale = 0.1f;
+        if (guiComponent.labelScale > 10f) guiComponent.labelScale = 10f;
 
 		if (GUI.changed)
 		{

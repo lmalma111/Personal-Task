@@ -1,5 +1,8 @@
 // (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 
+#if UNITY_5_5_OR_NEWER
+    using UnityEngine.AI;
+#endif
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
@@ -9,13 +12,13 @@ namespace HutongGames.PlayMaker.Actions
 	public class NavMeshAgentAnimatorSynchronizer : FsmStateAction
 	{
 		[RequiredField]
-		[CheckForComponent(typeof(UnityEngine.AI.NavMeshAgent))]
+		[CheckForComponent(typeof(NavMeshAgent))]
 		[CheckForComponent(typeof(Animator))]
 		[Tooltip("The Agent target. An Animator component and a NavMeshAgent component are required")]
 		public FsmOwnerDefault gameObject;
 
 		private Animator _animator;
-		private UnityEngine.AI.NavMeshAgent _agent;
+		private NavMeshAgent _agent;
 		
 		private Transform _trans;
 		
@@ -40,7 +43,7 @@ namespace HutongGames.PlayMaker.Actions
 				Finish();
 				return;
 			}
-			_agent = go.GetComponent<UnityEngine.AI.NavMeshAgent>();
+			_agent = go.GetComponent<NavMeshAgent>();
 
 			_animator = go.GetComponent<Animator>();
 			

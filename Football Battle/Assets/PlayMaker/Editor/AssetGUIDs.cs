@@ -22,7 +22,32 @@ namespace HutongGames.PlayMakerEditor
         public static string PlayMakerUnitypackage181 = "0921e97db908b2f4e8e407e68a2ed27c";
         public static string PlayMakerUnitypackage182 = "cd593cc3ded027746bf4658e85cb9fb9";
         public static string PlayMakerUnitypackage183 = "21698fae67461744189ec5c7a8eb143b";
+        public static string PlayMakerUnitypackage184 = "a927a5681695a574386fab6afd5a1a00";
+        public static string PlayMakerUnitypackage185 = "b4da689fd2d61134891c9fd284b0485a";
+        public static string PlayMakerStudentUnitypackage185 = "4f5bb025ff7f7ae4ba2408a62b827893";
 
+        public static string LatestInstall
+        {
+            get { return PlayMakerUnitypackage185; }
+        }
+
+        public static string LatestStudentInstall
+        {
+            get { return PlayMakerStudentUnitypackage185; }
+        }
+
+        public static bool IsStudentVersionInstall()
+        {
+            var fullVersion = AssetDatabase.GUIDToAssetPath(LatestInstall);
+            if (!string.IsNullOrEmpty(fullVersion)) return false;
+            var studentVersion = AssetDatabase.GUIDToAssetPath(LatestStudentInstall);
+            return !string.IsNullOrEmpty(studentVersion);
+        }
+
+        public static string GetFullAssetPathToLatestInstall()
+        {
+            return GetFullAssetPath(LatestInstall);
+        }
 
         public static string GetFullAssetPath(string assetGUID)
         {
