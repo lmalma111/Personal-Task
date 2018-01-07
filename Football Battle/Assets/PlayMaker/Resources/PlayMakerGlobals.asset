@@ -31,9 +31,21 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: PlayTime
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: PlayTimeString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables:
     - useVariable: 1
@@ -59,5 +71,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
   events: []
