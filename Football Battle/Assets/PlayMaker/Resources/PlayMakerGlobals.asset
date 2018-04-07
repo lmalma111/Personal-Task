@@ -14,19 +14,37 @@ MonoBehaviour:
   variables:
     floatVariables:
     - useVariable: 1
-      name: Energy
+      name: Energy_P1
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
     - useVariable: 1
-      name: MouseX
+      name: Energy_P2
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
     - useVariable: 1
-      name: MouseY
+      name: MouseX_P1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: MouseX_P2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: MouseY_P1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: MouseY_P2
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -49,7 +67,13 @@ MonoBehaviour:
     vector2Variables: []
     vector3Variables:
     - useVariable: 1
-      name: MousePos
+      name: MousePos_P1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: MousePos_P2
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -71,5 +95,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []

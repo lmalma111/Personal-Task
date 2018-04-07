@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 1311, y: 471}
-  m_MaxSize: {x: 22006, y: 14021}
+  m_MinSize: {x: 1313, y: 471}
+  m_MaxSize: {x: 22010, y: 14021}
   vertical: 0
-  controlID: 2377
+  controlID: 3490
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,9 +132,9 @@ MonoBehaviour:
     width: 1183
     height: 947
   m_MinSize: {x: 802, y: 442}
-  m_MaxSize: {x: 8002, y: 8042}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 2248
+  controlID: 3491
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 1183
     height: 545
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 2324
+  controlID: 3492
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 2442
+  controlID: 3376
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,8 +329,8 @@ MonoBehaviour:
     y: 0
     width: 405
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -440,14 +440,14 @@ MonoBehaviour:
     width: 665
     height: 524
   m_SceneLighting: 0
-  lastFramingTime: 205.03900298968676
+  lastFramingTime: 5649.232854031587
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.49498993, y: 0.82014376, z: -9}
+    m_Target: {x: 0, y: 0, z: -10}
     speed: 2
-    m_Value: {x: -0.49498993, y: 0.82014376, z: -9}
+    m_Value: {x: 0, y: 0, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -474,9 +474,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.740767
+    m_Target: 22
     speed: 2
-    m_Value: 12.740767
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -618,33 +618,45 @@ MonoBehaviour:
       stateName: 
       stateNames: []
       transitionIndex: 0
-      scrollPosition: {x: 0, y: 0}
+      scrollPosition: {x: -135, y: -135}
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: -25564
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 45344
+        fsmComponent: {fileID: 114057860074828648, guid: 57dca20fe54268149a7c350e9e756d20,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25398
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25490
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 45344
+        fsmComponent: {fileID: 114057860074828648, guid: 57dca20fe54268149a7c350e9e756d20,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25366
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25538
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 45344
+        fsmComponent: {fileID: 114057860074828648, guid: 57dca20fe54268149a7c350e9e756d20,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13086
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13318
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13350
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 11822
+        fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
+          type: 2}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 13362
         fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
@@ -728,93 +740,27 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 13350
+      - fsmComponentID: 11822
         fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
+        stateName: Start to Move
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 13318
+      - fsmComponentID: 45344
         fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
-        stateNames: []
-        transitionIndex: 0
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 13086
-        fsmTemplate: {fileID: 0}
-        stateName: Charging
-        stateNames: []
-        transitionIndex: 0
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -25538
-        fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
+        stateName: Start to Move
         stateNames:
-        - Energy Detect
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -25366
-        fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
-        stateNames:
-        - Energy Detect
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -25490
-        fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
-        stateNames:
-        - Energy Detect
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -25398
-        fsmTemplate: {fileID: 0}
-        stateName: Energy Detect
-        stateNames:
-        - Energy Detect
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -25564
-        fsmTemplate: {fileID: 0}
-        stateName: Enough Energy
-        stateNames:
-        - Enough Energy
+        - Start to Move
         transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
       recentlySelectedList:
-      - fsmComponentID: -25564
-        fsmComponent: {fileID: 0}
+      - fsmComponentID: 45344
+        fsmComponent: {fileID: 114057860074828648, guid: 57dca20fe54268149a7c350e9e756d20,
+          type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25398
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25490
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25366
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -25538
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13086
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13318
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13350
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 13362
+      - fsmComponentID: 11822
         fsmComponent: {fileID: 114057860074828648, guid: 2721854a85d79406c80b5116fc38ed31,
           type: 2}
         fsmTemplate: {fileID: 0}
@@ -870,19 +816,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Personal Task\Football Battle
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 022e0000
-    m_LastClickedID: 11778
-    m_ExpandedIDs: 00000000022e0000402e0000a62e0000703000002a320000e6340000e834000000ca9a3bffffff7f
+    m_SelectedIDs: 6ee10000
+    m_LastClickedID: 57710
+    m_ExpandedIDs: 00000000822e0000bc2e0000222f000098320000aa360000ac36000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -910,7 +856,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000022e0000402e0000a62e0000703000002a320000e6340000e834000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000822e0000bc2e0000222f0000e430000098320000aa360000ac36000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -941,18 +887,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 72940100d02c0000aa2f00006e360000c42e00000000000094300000702f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Lobby
+      m_OriginalName: Lobby
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 55134
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -964,7 +910,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 104
+  m_DirectoriesAreaWidth: 159
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -995,7 +941,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 169dffff1a9dffff1afcffff00000000e633000082340000
+    m_ExpandedIDs: 3aaee9ffd4e2e9ffc62eeaffec38eaff2e44eaff128cebff6434f4ff6634f4ffa634f4ff00000000183400001235000050360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
