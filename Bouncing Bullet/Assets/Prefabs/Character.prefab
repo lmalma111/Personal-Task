@@ -1625,7 +1625,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 3
+        value: 10
       - useVariable: 1
         name: Temp HP
         tooltip: 
