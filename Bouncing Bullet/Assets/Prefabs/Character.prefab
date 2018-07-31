@@ -254,7 +254,7 @@ MonoBehaviour:
       - fsmEvent:
           name: Jump
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: InAir
         linkStyle: 0
         linkConstraint: 0
@@ -432,7 +432,7 @@ MonoBehaviour:
     events:
     - name: Jump
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: TouchDown
       isSystemEvent: 0
       isGlobal: 0
@@ -531,9 +531,7 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetAxisVector
         - HutongGames.PlayMaker.Actions.SetVelocity2d
-        - HutongGames.PlayMaker.Actions.GetVector3XYZ
         - HutongGames.PlayMaker.Actions.SetAnimatorFloat
         - HutongGames.PlayMaker.Actions.GetSpeed2d
         - HutongGames.PlayMaker.Actions.SetProperty
@@ -546,20 +544,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        - 
-        actionEnabled: 0101010101010101
-        actionIsOpen: 0101000000000000
-        actionStartIndex: 00000000070000000c00000011000000170000001a0000001c00000023000000
-        actionHashCodes: b691f703efa8d3046f1d0b04f9cb720032d594025ac852045552ad05f9cb7200
+        actionEnabled: 010101010101
+        actionIsOpen: 010000000000
+        actionStartIndex: 00000000050000000b0000000e0000001000000017000000
+        actionHashCodes: efa8d304f9cb720032d594025ac852045552ad05f9cb7200
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
@@ -745,18 +735,6 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Horizontal
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Vertical
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
           value: Speed
         - useVariable: 0
           name: 
@@ -769,38 +747,8 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 5
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: Xmove
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Xmove
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -870,18 +818,6 @@ MonoBehaviour:
           value: {x: 0, y: 0}
         fsmVector3Params:
         - useVariable: 1
-          name: Move
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: Move
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -891,29 +827,17 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000001010100000000010000000000010100000000
+        byteData: 010100000000010000000000010100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000000f00000007000000130000001c0000000f00000014000000250000000f0000000f000000010000001c0000000f0000000f0000000f0000000100000014000000120000000f0000000f0000000100000007000000140000000f000000010000002400000001000000140000001c0000000f0000000f0000000f000000070000000100000014000000120000000f0000000f0000000100000007000000
+        paramDataType: 14000000250000000f0000000f0000000100000014000000120000000f0000000f0000000100000007000000140000000f000000010000002400000001000000140000001c0000000f0000000f0000000f000000070000000100000014000000120000000f0000000f0000000100000007000000
         paramName:
-        - horizontalAxis
-        - verticalAxis
-        - multiplier
-        - mapToPlane
-        - relativeTo
-        - storeVector
-        - storeMagnitude
         - gameObject
         - vector
         - x
         - y
-        - everyFrame
-        - vector3Variable
-        - storeX
-        - storeY
-        - storeZ
         - everyFrame
         - gameObject
         - parameter
@@ -939,8 +863,8 @@ MonoBehaviour:
         - dampTime
         - everyFrame
         - everyFrameOption
-        paramDataPos: 000000000100000000000000000000000000000000000000010000000000000000000000020000000300000004000000010000000400000005000000060000000500000001000000020000000700000008000000060000000700000002000000090000000b000000000000000c00000003000000020000000a0000000b0000000c0000000d0000001100000004000000030000000d0000000e0000001200000013000000
-        paramByteDataSize: 0000000000000000000000000400000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000004000000000000000000000001000000000000000100000000000000000000000000000000000000000000000400000001000000000000000000000000000000000000000100000004000000
+        paramDataPos: 000000000000000000000000010000000000000001000000000000000200000003000000010000000200000002000000040000000600000000000000070000000300000000000000050000000600000007000000080000000c000000040000000100000008000000090000000d0000000e000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000100000004000000000000000000000001000000000000000100000000000000000000000000000000000000000000000400000001000000000000000000000000000000000000000100000004000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -1027,7 +951,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
@@ -2346,9 +2270,9 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
+          name: Shoot
+          isSystemEvent: 0
+          isGlobal: 1
         toState: Shoot
         linkStyle: 0
         linkConstraint: 0
@@ -2400,7 +2324,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        - FINISHED
+        - Shoot
         byteData: 000d000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -2518,6 +2442,9 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: Shoot
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []

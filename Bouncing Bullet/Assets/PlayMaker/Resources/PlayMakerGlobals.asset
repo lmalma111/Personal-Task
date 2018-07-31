@@ -57,3 +57,6 @@ MonoBehaviour:
   events:
   - Update HP
   - GameOver
+  - ToJump
+  - Jump
+  - Shoot
