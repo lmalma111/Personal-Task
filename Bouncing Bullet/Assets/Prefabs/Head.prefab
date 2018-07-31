@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50370107517857138}
   - component: {fileID: 60816232880236114}
   - component: {fileID: 114405493008199120}
+  - component: {fileID: 114741391711995718}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -432,7 +433,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -465,7 +466,18 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114741391711995718
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481214692772152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212958455085387624
 SpriteRenderer:
   m_ObjectHideFlags: 1
