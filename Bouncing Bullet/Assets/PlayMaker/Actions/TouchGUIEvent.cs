@@ -7,6 +7,10 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Device)]
 	[Tooltip("Sends events when a GUI Texture or GUI Text is touched. Optionally filter by a fingerID.")]
+	#if UNITY_2017_2_OR_NEWER
+	#pragma warning disable CS0618  
+	[Obsolete("GUIElement is part of the legacy UI system and will be removed in a future release")]
+	#endif
 	public class TouchGUIEvent : FsmStateAction
 	{
 		[RequiredField]
@@ -69,7 +73,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		[ActionSection("")] 
 		
-		[Tooltip("Repeate every frame.")]
+		[Tooltip("Repeat every frame.")]
 		public bool everyFrame;
 
 		// private work variables

@@ -1,11 +1,16 @@
 // (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using UnityEngine;
+using System;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GUIElement)]
 	[Tooltip("Performs a Hit Test on a Game Object with a GUITexture or GUIText component.")]
+	#if UNITY_2017_2_OR_NEWER
+	#pragma warning disable CS0618  
+	[Obsolete("GUIElement is part of the legacy UI system and will be removed in a future release")]
+	#endif
 	public class GUIElementHitTest : FsmStateAction
 	{
 		[RequiredField]

@@ -1,11 +1,16 @@
 // (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
+using System;
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GUIElement)]
 	[Tooltip("Sets the Text used by the GUIText Component attached to a Game Object.")]
+	#if UNITY_2017_2_OR_NEWER
+	#pragma warning disable CS0618  
+	[Obsolete("GUIText is part of the legacy UI system and will be removed in a future release")]
+	#endif
 	public class SetGUIText : ComponentAction<GUIText>
 	{
 		[RequiredField]
