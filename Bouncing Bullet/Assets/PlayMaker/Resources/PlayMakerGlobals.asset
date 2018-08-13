@@ -24,13 +24,19 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 3
+      value: 5
     - useVariable: 1
       name: Player HP
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 5
+    - useVariable: 1
+      name: TimeLimitF
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 30
     - useVariable: 1
       name: Xmove
       tooltip: 
@@ -44,7 +50,13 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     intVariables: []
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: StartPlay
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables:
     - useVariable: 1
@@ -65,7 +77,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
