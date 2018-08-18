@@ -2201,11 +2201,22 @@ MonoBehaviour:
     - name: GameOver
       isSystemEvent: 0
       isGlobal: 1
+    - name: TimesUp
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: GameOver
         isSystemEvent: 0
         isGlobal: 1
+      toState: Destroy
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: TimesUp
+        isSystemEvent: 0
+        isGlobal: 0
       toState: Destroy
       linkStyle: 0
       linkConstraint: 0
@@ -2238,7 +2249,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -3866,7 +3877,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: cee0f3d723836fb45aff84dd2bc4b349, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3912,7 +3923,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: 3f14168b0a4b1484b9c506d83d7fe073, type: 3}
   m_Color: {r: 0.4433962, g: 0, b: 0.020638311, a: 1}
   m_FlipX: 0
@@ -3958,7 +3969,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: 3f14168b0a4b1484b9c506d83d7fe073, type: 3}
   m_Color: {r: 0.9433962, g: 0.022058519, b: 0, a: 1}
   m_FlipX: 0
