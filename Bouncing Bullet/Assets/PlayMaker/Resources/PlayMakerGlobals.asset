@@ -24,7 +24,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 5
+      value: 100
     - useVariable: 1
       name: Player HP
       tooltip: 
@@ -64,6 +64,12 @@ MonoBehaviour:
       value: 0
     boolVariables:
     - useVariable: 1
+      name: GameOver
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: StartPlay
       tooltip: 
       showInInspector: 0
@@ -81,7 +87,67 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: Stage1Top10String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top1String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top2String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top3String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top4String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top5String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top6String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top7String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top8String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Stage1Top9String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables:
     - useVariable: 1
       name: InitialV
@@ -101,7 +167,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
@@ -110,3 +176,5 @@ MonoBehaviour:
   - Shoot
   - TimesUp
   - To Win
+  - Stage Clear
+  - Show Score
