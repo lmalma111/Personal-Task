@@ -113,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &98798163 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114784561449317002, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &239160448
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +820,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &638949812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114678704072294962, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &663017075
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +858,12 @@ Transform:
   m_Father: {fileID: 1997327733}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698685256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114826670099898656, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &704544563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3333,7 +3351,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101010101
-        actionIsOpen: 01010101010101010101
+        actionIsOpen: 00000000000000000000
         actionStartIndex: 00000000020000000400000006000000080000000a0000000c0000000e0000001000000012000000
         actionHashCodes: 5ac852045ac852045ac852045ac852045ac852045ac852045ac852045ac852045ac852045ac85204
         unityObjectParams: []
@@ -3351,7 +3369,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1745081522}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -3459,7 +3477,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3468,7 +3486,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -3483,7 +3501,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1649477955}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -3591,7 +3609,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3600,7 +3618,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -3615,7 +3633,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1666137419}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -3723,7 +3741,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3732,7 +3750,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -3747,7 +3765,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 98798163}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -3855,7 +3873,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3864,7 +3882,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -3879,7 +3897,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 638949812}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -3987,7 +4005,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3996,7 +4014,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4011,7 +4029,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 698685256}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -4119,7 +4137,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -4128,7 +4146,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4143,7 +4161,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1130673627}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -4251,7 +4269,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -4260,7 +4278,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4275,7 +4293,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 889379557}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -4383,7 +4401,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -4392,7 +4410,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4407,7 +4425,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1259902198}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -4515,7 +4533,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -4524,7 +4542,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4539,7 +4557,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 0}
+            value: {fileID: 1311019508}
           TargetTypeName: UnityEngine.UI.Text
           PropertyName: text
           BoolParameter:
@@ -4647,7 +4665,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -4656,7 +4674,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -4784,6 +4802,12 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!114 &889379557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114527079372345698, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &902892728
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,6 +5083,12 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1100898781}
   m_CullTransparentMesh: 0
+--- !u!114 &1130673627 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114612953693875112, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1150983844
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,6 +5284,12 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &1259902198 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114657719251731348, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1301275716
 Prefab:
   m_ObjectHideFlags: 0
@@ -5301,6 +5337,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df9f367e148cdf742850b5d926cc4741, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1311019508 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114051181391950658, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1424060004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6833,6 +6875,188 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &1649477955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114745554378828016, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1666137419 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114291575942437708, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &1745081522 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114077484760732572, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1777680811}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1001 &1777680811
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224055403515712504, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658172107299616, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224413891766240194, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -258.3706
+      objectReference: {fileID: 0}
+    - target: {fileID: 224413891766240194, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 988.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224001027199981380, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -444.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 224271295070582322, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -346.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 224431882785330954, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -247.175
+      objectReference: {fileID: 0}
+    - target: {fileID: 224434639257676364, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -741.525
+      objectReference: {fileID: 0}
+    - target: {fileID: 224545096203725840, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -840.395
+      objectReference: {fileID: 0}
+    - target: {fileID: 224553092991755872, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -543.78503
+      objectReference: {fileID: 0}
+    - target: {fileID: 224386512838003872, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -642.655
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447733431640846, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -49.435
+      objectReference: {fileID: 0}
+    - target: {fileID: 224441599624989334, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -148.30501
+      objectReference: {fileID: 0}
+    - target: {fileID: 224687244758724120, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -939.265
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abfb513cef8e7364bbd5c0dfcdc7fdbe, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1792540022
 GameObject:
   m_ObjectHideFlags: 0
