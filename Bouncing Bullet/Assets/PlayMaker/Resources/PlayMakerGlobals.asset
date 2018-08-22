@@ -24,7 +24,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 100
+      value: 5
     - useVariable: 1
       name: Player HP
       tooltip: 
@@ -69,6 +69,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: GoTitle
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     - useVariable: 1
       name: StartPlay
       tooltip: 
@@ -167,7 +173,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver

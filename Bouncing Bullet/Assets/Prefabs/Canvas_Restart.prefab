@@ -350,7 +350,7 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: restart
+    - name: Restart
       description: 
       colorIndex: 0
       position:
@@ -365,8 +365,10 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.RestartLevel
         - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.SetBoolValue
@@ -378,10 +380,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 00000000000000000300000006000000090000000c000000
-        actionHashCodes: 000000009845b30527fbe10327fbe10327fbe10327fbe103
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0001000000000000
+        actionStartIndex: 00000000030000000300000006000000090000000c0000000f00000012000000
+        actionHashCodes: 603dd905000000009845b30527fbe10327fbe10327fbe10327fbe10327fbe103
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -409,7 +413,19 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 30
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: TargetLeft
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams:
         - useVariable: 1
           name: Win
@@ -459,19 +475,34 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: GoTitle
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000
+        byteData: 00000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000001000000110000001100000001000000110000001100000001000000110000001100000001000000110000001100000001000000
+        paramDataType: 1000000010000000010000000f0000000f00000001000000110000001100000001000000110000001100000001000000110000001100000001000000110000001100000001000000110000001100000001000000
         paramName:
+        - intVariable
+        - intValue
+        - everyFrame
         - floatVariable
         - floatValue
         - everyFrame
@@ -487,8 +518,11 @@ MonoBehaviour:
         - boolVariable
         - boolValue
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000100000001000000020000000300000002000000040000000500000003000000060000000700000004000000
-        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000000000000100000001000000000000000100000002000000020000000300000003000000040000000500000004000000060000000700000005000000080000000900000006000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
     events:
     - name: UI POINTER DOWN
       isSystemEvent: 1
@@ -498,7 +532,7 @@ MonoBehaviour:
         name: UI POINTER DOWN
         isSystemEvent: 1
         isGlobal: 0
-      toState: restart
+      toState: Restart
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
