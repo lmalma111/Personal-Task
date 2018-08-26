@@ -24,7 +24,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 5
+      value: 500
     - useVariable: 1
       name: Player HP
       tooltip: 
@@ -95,61 +95,61 @@ MonoBehaviour:
       value: 0
     stringVariables:
     - useVariable: 1
-      name: Stage1Top10String
+      name: Score_Top10_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top1String
+      name: Score_Top1_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top2String
+      name: Score_Top2_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top3String
+      name: Score_Top3_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top4String
+      name: Score_Top4_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top5String
+      name: Score_Top5_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top6String
+      name: Score_Top6_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top7String
+      name: Score_Top7_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top8String
+      name: Score_Top8_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Stage1Top9String
+      name: Score_Top9_String
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -177,10 +177,10 @@ MonoBehaviour:
   events:
   - Update HP
   - GameOver
-  - ToJump
   - Jump
   - Shoot
   - TimesUp
   - To Win
   - Stage Clear
   - Show Score
+  - Open Result UI
