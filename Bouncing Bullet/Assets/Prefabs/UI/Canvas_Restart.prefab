@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 114723434771887824}
   - component: {fileID: 114687344635705870}
   - component: {fileID: 114677375430321200}
+  - component: {fileID: 95084704867312842}
   m_Layer: 5
   m_Name: Btn_GoTitle
   m_TagString: Untagged
@@ -65,6 +66,7 @@ GameObject:
   - component: {fileID: 114022431166385666}
   - component: {fileID: 114104817082577782}
   - component: {fileID: 114491397805290670}
+  - component: {fileID: 95291118844053530}
   m_Layer: 5
   m_Name: Btn_Restart
   m_TagString: Untagged
@@ -126,6 +128,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &95084704867312842
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372865004021740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a53dec54fe229d47877ae29f98cd9e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95291118844053530
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422534747733494}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a53dec54fe229d47877ae29f98cd9e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114022431166385666
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -462,6 +462,7 @@ MonoBehaviour:
     handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
+    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -478,6 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetFSMs: []
 --- !u!212 &212958455085387624
 SpriteRenderer:
   m_ObjectHideFlags: 1
