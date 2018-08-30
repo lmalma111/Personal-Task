@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory(ActionCategory.Trigonometry)]
+	[ActionCategory("Trigonometry")]
 	[Tooltip("Get the Arc Tangent 2 as in atan2(y,x) from a vector 3, where you pick which is x and y from the vector 3. You can get the result in degrees, simply check on the RadToDeg conversion")]
 	public class GetAtan2FromVector3 : FsmStateAction
 	{

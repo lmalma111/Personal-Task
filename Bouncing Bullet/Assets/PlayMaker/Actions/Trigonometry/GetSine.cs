@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory(ActionCategory.Trigonometry)]
+	[ActionCategory("Trigonometry")]
 	[Tooltip("Get the sine. You can use degrees, simply check on the DegToRad conversion")]
 	public class GetSine : FsmStateAction
 	{
