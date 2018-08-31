@@ -2010,7 +2010,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2044,7 +2044,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!225 &102897577
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2997,6 +2997,8 @@ GameObject:
   - component: {fileID: 461189320}
   - component: {fileID: 461189319}
   - component: {fileID: 461189318}
+  - component: {fileID: 461189323}
+  - component: {fileID: 461189324}
   m_Layer: 5
   m_Name: Thumb Interactive
   m_TagString: Untagged
@@ -3137,7 +3139,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 64
         y: 240
-        width: 168
+        width: 177.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -3230,12 +3232,12 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams:
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          enumName: 
+          enumName: UnityEngine.EventSystems.PointerEventData+InputButton
           intValue: 0
         fsmFloatParams: []
         fsmIntParams: []
@@ -3308,7 +3310,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 816
         y: 240
-        width: 160
+        width: 174
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -3318,7 +3320,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Forward values to Interface
+        toState: Forward values to Interface 2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -3555,8 +3557,290 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 352
-        y: 320
+        x: 299.875
+        y: 291.22656
+        width: 400
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: move interactive thumb
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetAtan2FromVector2
+        - HutongGames.PlayMaker.Actions.GetVector2XY
+        - HutongGames.PlayMaker.Actions.FloatRemap
+        - HutongGames.PlayMaker.Actions.FloatRemap
+        - HutongGames.PlayMaker.Actions.FloatRemap
+        - HutongGames.PlayMaker.Actions.SetFsmFloat
+        - HutongGames.PlayMaker.Actions.SetFsmFloat
+        - HutongGames.PlayMaker.Actions.SetFsmFloat
+        - HutongGames.PlayMaker.Actions.SetFsmFloat
+        - HutongGames.PlayMaker.Actions.SetVector3XYZ
+        - HutongGames.PlayMaker.Actions.SetVector2XY
+        - HutongGames.PlayMaker.Actions.SetFsmVector2
+        - HutongGames.PlayMaker.Actions.SetFsmVector3
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101010101010101010101
+        actionIsOpen: 0101010101010101010101010101
+        actionStartIndex: 0000000004000000080000000f000000160000001d00000022000000270000002c00000031000000370000003c0000004100000046000000
+        actionHashCodes: cfa857028ed11d0558231b0058231b0058231b0087604502876045028760450287604502dfd72a04f9bc2503d23c8504bf9f370248c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Interface
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 102897574}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Magnitude
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: X
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Y
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Angle
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Position2d
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Joystick Interface
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Position3d
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000015468756d6220436c616d70656420506f736974696f6e0000000001416e676c650100000000000000000000015468756d6220436c616d70656420506f736974696f6e0000000001780000000001790000000000017800000000014a6f79737469636b204e65676174697665205261646975730000f041014a6f79737469636b20526164697573000080bf000000803f000000000001780000000000017900000000014a6f79737469636b204e65676174697665205261646975730000f041014a6f79737469636b20526164697573000080bf000000803f000000000001790000000000014d61676e697475646500000000000000f041014a6f79737469636b2052616469757300000000000000803f0000000000014d61676e69747564650000000000014d61676e69747564650000000000017800000000000179000000000001416e676c650000000000000000000000000001506f736974696f6e20336400000000000000000000000001000000000178000000000179000000000000000000000000000001506f736974696f6e326400000000000000000100000000017800000000017900000000000000000001506f736974696f6e32640000000000000000000000000001506f736974696f6e20336400cdcccc3d0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 250000000f0000001100000001000000250000000f0000000f000000010000000f0000000f0000000f0000000f0000000f0000000f000000010000000f0000000f0000000f0000000f0000000f0000000f000000010000000f0000000f0000000f0000000f0000000f0000000f000000010000001400000012000000120000000f000000010000001400000012000000120000000f000000010000001400000012000000120000000f000000010000001400000012000000120000000f000000010000001c0000001c0000000f0000000f0000000f0000000100000025000000250000000f0000000f0000000100000014000000120000001200000025000000010000001400000012000000120000001c000000010000000f0000001700000001000000
+        paramName:
+        - vector2
+        - angle
+        - RadToDeg
+        - everyFrame
+        - vector2Variable
+        - storeX
+        - storeY
+        - everyFrame
+        - theFloat
+        - baseStart
+        - baseEnd
+        - targetStart
+        - targetEnd
+        - storeResult
+        - everyFrame
+        - theFloat
+        - baseStart
+        - baseEnd
+        - targetStart
+        - targetEnd
+        - storeResult
+        - everyFrame
+        - theFloat
+        - baseStart
+        - baseEnd
+        - targetStart
+        - targetEnd
+        - storeResult
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - vector3Variable
+        - vector3Value
+        - x
+        - y
+        - z
+        - everyFrame
+        - vector2Variable
+        - vector2Value
+        - x
+        - y
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000001f000000290000002b0000002c0000004b0000005100000057000000580000005e0000007b0000008f00000094000000990000009f000000a0000000a6000000c3000000d7000000dc000000e1000000e7000000e8000000f6000000fb0000000f0100001401000019010000270100000000000000000000010000002801000036010000010000000200000003000000370100003d0100000200000004000000050000003e01000044010000030000000600000007000000450100004f0100005001000068010000750100007b0100008101000086010000870100009a010000a3010000a9010000af010000040000000800000009000000b0010000c3010000050000000a0000000b000000c4010000dc010000dd010000e2010000ea010000
+        paramByteDataSize: 1f0000000a00000002000000010000001f000000060000000600000001000000060000001d0000001400000005000000050000000600000001000000060000001d00000014000000050000000500000006000000010000000e000000050000001400000005000000050000000e000000010000000000000000000000000000000e00000001000000000000000000000000000000060000000100000000000000000000000000000006000000010000000000000000000000000000000a00000001000000180000000d00000006000000060000000500000001000000130000000900000006000000060000000100000000000000000000000000000013000000010000000000000000000000000000001800000001000000050000000800000001000000
+    - name: Forward values to Interface 2
+      description: 'all inputs are forwarded to the joystick parent for easy access
+        by other components in the scene. '
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 298.89844
+        y: 401.4453
         width: 400
         height: 16
       isBreakpoint: 0
@@ -3822,6 +4106,9 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: UI POINTER DOWN
+      isSystemEvent: 1
+      isGlobal: 0
     - name: UGUI / ON BEGIN DRAG
       isSystemEvent: 0
       isGlobal: 0
@@ -3862,6 +4149,22 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 0
       toState: Reset visuals and data
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: UGUI / ON POINTER UP
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Reset visuals and data
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: UI POINTER DOWN
+        isSystemEvent: 1
+        isGlobal: 0
+      toState: move interactive thumb
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -4020,7 +4323,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &461189320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4099,6 +4402,73 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461189316}
   m_CullTransparentMesh: 0
+--- !u!114 &461189323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 461189316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159e57f0928fa4678a3d851750134f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  UiTargetOption: 0
+  UiTarget: {fileID: 461189316}
+  action: 0
+  fsmVariableSetup:
+    target: 0
+    gameObject: {fileID: 0}
+    fsmComponent: {fileID: 0}
+    fsmIndex: 0
+    variableIndex: 0
+    variableType: 0
+    variableName: 
+  fsmEventSetup:
+    target: 0
+    gameObject: {fileID: 0}
+    fsmComponent: {fileID: 0}
+    customEventName: UI POINTER DOWN
+    builtInEventName: UGUI / ON CLICK
+    sendtoChildren: 0
+--- !u!114 &461189324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 461189316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b754c7368bb634a6e8f34a1bc8a2aab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  eventTarget:
+    eventTarget: 0
+    gameObject: {fileID: 461189316}
+    includeChildren: 1
+    fsmComponent: {fileID: 0}
+  onClickEvent:
+    eventName: UGUI / ON POINTER CLICK
+    allowLocalEvents: 0
+    defaultEventName: UGUI / ON POINTER CLICK
+  onDownEvent:
+    eventName: UGUI / ON POINTER DOWN
+    allowLocalEvents: 0
+    defaultEventName: UGUI / ON POINTER DOWN
+  onEnterEvent:
+    eventName: UGUI / ON POINTER ENTER
+    allowLocalEvents: 0
+    defaultEventName: UGUI / ON POINTER ENTER
+  onExitEvent:
+    eventName: UGUI / ON POINTER EXIT
+    allowLocalEvents: 0
+    defaultEventName: UGUI / ON POINTER EXIT
+  onUpEvent:
+    eventName: UGUI / ON POINTER UP
+    allowLocalEvents: 0
+    defaultEventName: UGUI / ON POINTER UP
 --- !u!1 &478936467
 GameObject:
   m_ObjectHideFlags: 0
@@ -7673,6 +8043,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1983189412045502, guid: 9a17c9235fa26ff4bba2f02cd46314ff, type: 2}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114123277374537294, guid: 9a17c9235fa26ff4bba2f02cd46314ff,
+        type: 2}
+      propertyPath: fsm.states.Array.data[0].actionData.actionIsOpen.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114123277374537294, guid: 9a17c9235fa26ff4bba2f02cd46314ff,
+        type: 2}
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15134,9 +15514,9 @@ RectTransform:
   m_Father: {fileID: 102897575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 65, y: 65}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 130, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897392231
