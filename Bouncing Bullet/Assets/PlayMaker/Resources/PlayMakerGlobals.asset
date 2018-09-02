@@ -14,6 +14,12 @@ MonoBehaviour:
   variables:
     floatVariables:
     - useVariable: 1
+      name: 180-L_Angle
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 180
+    - useVariable: 1
       name: Angle
       tooltip: 
       showInInspector: 0
@@ -21,6 +27,12 @@ MonoBehaviour:
       value: 0
     - useVariable: 1
       name: HP percentage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: L_Angle
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -203,7 +215,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
