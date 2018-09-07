@@ -162,7 +162,12 @@ namespace HutongGames.PlayMakerEditor
 
 			GUI.color = Color.white;
 
-			GUILayout.Label(details.nameSpace+"."+details.methodName);
+            string _label = details.nameSpace + "." + details.methodName;
+            if (details.methodParamType != PlayMakerEventProxyCreator.ParameterType.none)
+            {
+                _label += " (" + details.methodParamType + " parameter)";
+            }
+            GUILayout.Label(_label);
 			
 			GUILayout.FlexibleSpace();
 			
@@ -247,6 +252,19 @@ namespace HutongGames.PlayMakerEditor
 				ReBuildPreview = true;
 			}
 
+            // Parameter
+           
+            GUILayout.Label("Public Method/Message Parameter:");
+
+            PlayMakerEventProxyCreator.ParameterType _param = (PlayMakerEventProxyCreator.ParameterType) EditorGUILayout.EnumPopup("",currentDefinition.Parameter) ;
+           
+            if (_param != currentDefinition.Parameter)
+            {
+                currentDefinition.Parameter =_param;
+                ReBuildPreview = true;
+            }
+
+
 			GUILayout.Label("FileName being generated: "+currentDefinition.Name+".cs");
 
 			FsmEditorGUILayout.Divider();
@@ -310,6 +328,7 @@ namespace HutongGames.PlayMakerEditor
 			currentDefinition.FolderPath = details.projectPath.Substring(0,details.projectPath.Length -(details.className.Length+3));
 			currentDefinition.Name = details.className;
 			currentDefinition.PublicMethodName = details.methodName;
+            currentDefinition.Parameter = details.methodParamType;
 			currentDefinition.NameSpace = details.nameSpace;
 
 			_currentFileDetails = details;

@@ -9,6 +9,11 @@ using System.Reflection;
 
 using UnityEngine;
 
+#if UNITY_EDITOR
+using HutongGames.PlayMaker.Ecosystem.Utils;
+#endif
+
+
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.ScriptControl)]
@@ -50,6 +55,10 @@ namespace HutongGames.PlayMaker.Actions
 
 #endif
 
+		#if UNITY_EDITOR
+		public bool debug;
+		#endif
+
 		public override void Reset()
 		{
 			gameObject = null;
@@ -59,6 +68,10 @@ namespace HutongGames.PlayMaker.Actions
 			repeating = false;
 			repeatDelay = 1;
 			cancelOnExit = false;
+
+			#if UNITY_EDITOR
+			debug = false;
+			#endif
 		}
 
 		MonoBehaviour component;
@@ -93,6 +106,19 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				component.Invoke(methodName.Value, delay.Value);
 			}
+
+			#if UNITY_EDITOR
+			if (debug || LinkerData.DebugAll)
+			{
+				
+				UnityEngine.Debug.Log("<Color=blue>InvokeMethod</Color> on "+this.Fsm.GameObjectName+":"+this.Fsm.Name+"\n" +
+				                      "<Color=red>TargetType</Color>\t\t"+ component.GetType()+"\n" +
+				                      "<Color=red>Assembly</Color>\t\t"+component.GetType().Assembly.FullName+"\n" +
+				                      "<Color=red>Method</Color>\t\t\t"+methodName.Value+"\n" );
+				
+				LinkerData.RegisterClassDependancy(component.GetType(),component.GetType().ToString());
+			}
+			#endif
 		}
 
 		public override void OnExit()

@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 212341759759413624}
   - component: {fileID: 114098695569058708}
   - component: {fileID: 61799118357339652}
+  - component: {fileID: 114946902814235530}
   m_Layer: 0
   m_Name: Portal_1
   m_TagString: Untagged
@@ -398,6 +399,7 @@ GameObject:
   - component: {fileID: 212059929384171354}
   - component: {fileID: 114514167818951288}
   - component: {fileID: 61245946167017438}
+  - component: {fileID: 114241971493969882}
   m_Layer: 0
   m_Name: Portal_1
   m_TagString: Untagged
@@ -636,6 +638,7 @@ GameObject:
   - component: {fileID: 212295164874427252}
   - component: {fileID: 114533254923867060}
   - component: {fileID: 61918500853916988}
+  - component: {fileID: 114914160682645604}
   m_Layer: 0
   m_Name: Portal_2
   m_TagString: Untagged
@@ -1064,6 +1067,7 @@ GameObject:
   - component: {fileID: 212557060059020740}
   - component: {fileID: 114765707709920350}
   - component: {fileID: 61078985419015698}
+  - component: {fileID: 114463597331034456}
   m_Layer: 0
   m_Name: Portal_2
   m_TagString: Untagged
@@ -7319,7 +7323,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10144,7 +10148,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10153,7 +10157,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -10178,7 +10182,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114103588938694454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18666,6 +18670,19 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &114241971493969882
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336542551104230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114514167818951288}
 --- !u!114 &114254584746578862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35896,6 +35913,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 114428846492209182}
+--- !u!114 &114463597331034456
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1775989073233398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114765707709920350}
 --- !u!114 &114472487493508180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -39556,7 +39586,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -39565,7 +39595,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -39590,7 +39620,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114528771925969026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40503,7 +40533,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -40512,7 +40542,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -40537,7 +40567,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114538116637014964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50520,7 +50550,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -50529,7 +50559,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -50554,7 +50584,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114767500742451760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59731,6 +59761,19 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &114914160682645604
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459811737781174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114533254923867060}
 --- !u!114 &114928671919158496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61760,6 +61803,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 114554660335666186}
+--- !u!114 &114946902814235530
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119596538410538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114098695569058708}
 --- !u!114 &114947453639987420
 MonoBehaviour:
   m_ObjectHideFlags: 1

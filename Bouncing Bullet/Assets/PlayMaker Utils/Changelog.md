@@ -1,5 +1,29 @@
 #PlayMaker Utils Change log
 
+###1.5.4
+**Release Date:** 20/07/2018  
+
+**new**: VersionInfo class to help finding out addons versions and misc
+
+###1.5.3
+**Release Date:** 18/07/2018  
+
+**fixed**: removed unwanted Editor reference that prevented builds
+
+**fixed**: leveraged global event creation with better checks
+
+
+###1.5.2
+**Release Date:** 27/06/2018  
+
+**new**: new `Current Event Data` for viewing live the current event data being used.
+
+###1.5.1
+**Release Date:** 11/06/2018  
+
+**Improvement** `EventProxyWizard` now can accepts a single parameter passed as `EventData` to the playmaker event
+
+
 ###1.5
 **Release Date:** 20/03/2018  
 
