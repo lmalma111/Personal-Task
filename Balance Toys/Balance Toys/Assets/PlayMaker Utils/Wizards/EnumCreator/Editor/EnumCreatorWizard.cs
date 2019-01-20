@@ -168,7 +168,7 @@ namespace HutongGames.PlayMakerEditor.Ecosystem.Utils
 
 			}else{
 				EditorGUIUtility.AddCursorRect(cursorChangeRect,MouseCursor.ResizeVertical);
-				if( Event.current.type == EventType.mouseDown && cursorChangeRect.Contains(Event.current.mousePosition)){
+				if( Event.current.type == EventType.MouseDown && cursorChangeRect.Contains(Event.current.mousePosition)){
 					resize = true;
 					currentScrollViewHeight = Event.current.mousePosition.y;
 

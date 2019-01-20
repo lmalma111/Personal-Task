@@ -7,25 +7,25 @@ using System.Collections.Generic;
 using Object = UnityEngine.Object;
 using HutongGames.PlayMaker;
 
+#if UNITY_EDITOR
+using HutongGames.PlayMaker.Ecosystem.Utils;
+#endif
+
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.ScriptControl)]
-    [Tooltip("Call a method in a component on a GameObject.")]
+    [Tooltip("Call a method in a behaviour.")]
     public class CallMethod : FsmStateAction
     {
-        [ObjectType(typeof(Component))]
-        [Tooltip("The behaviour on a GameObject that has the method you want to call. " +
-                 "Drag the script component from the Unity inspector into this slot. " +
-                 "HINT: Use Lock if the script is on another GameObject." +
-                 "\n\nNOTE: Unity Object fields only show the GameObject name, " +
-                 "so for clarity we show the Behaviour name in a readonly field below.")]
+        [ObjectType(typeof(MonoBehaviour))]
+        [Tooltip("Store the component in an Object variable.\nNOTE: Set theObject variable's Object Type to get a component of that type. E.g., set Object Type to UnityEngine.AudioListener to get the AudioListener component on the camera.")]
         public FsmObject behaviour;
 
         //[UIHint(UIHint.Method)]
         [Tooltip("Name of the method to call on the component")]
         public FsmString methodName;
 
-        [Tooltip("Method parameters. NOTE: these must match the method's signature!")]
+        [Tooltip("Method paramters. NOTE: these must match the method's signature!")]
         public FsmVar[] parameters;
 
         [ActionSection("Store Result")]
@@ -39,6 +39,10 @@ namespace HutongGames.PlayMaker.Actions
 
         [Tooltip("Use the old manual editor UI.")]
         public bool manualUI;
+
+		#if UNITY_EDITOR
+		public bool debug;
+		#endif
 
         private FsmObject cachedBehaviour;
         private FsmString cachedMethodName;
@@ -55,6 +59,10 @@ namespace HutongGames.PlayMaker.Actions
             parameters = null;
             storeResult = null;
             everyFrame = false;
+
+			#if UNITY_EDITOR
+			debug = false;
+			#endif
         }
 
         public override void OnEnter()
@@ -62,6 +70,19 @@ namespace HutongGames.PlayMaker.Actions
             parametersArray = new object[parameters.Length];
 
             DoMethodCall();
+
+			#if UNITY_EDITOR
+			if (debug || LinkerData.DebugAll)
+			{
+				
+				UnityEngine.Debug.Log("<Color=blue>CallMethod</Color> on "+this.Fsm.GameObjectName+":"+this.Fsm.Name+"\n" +
+				                      "<Color=red>TargetType</Color>\t\t"+ cachedType+"\n" +
+				                      "<Color=red>Assembly</Color>\t\t"+cachedType.Assembly.FullName+"\n" +
+				                      "<Color=red>Method</Color>\t\t\t"+cachedMethodInfo.Name+"\n" );
+				
+				LinkerData.RegisterClassDependancy(cachedType,cachedType.ToString());
+			}
+			#endif
 
             if (!everyFrame)
             {
@@ -223,9 +244,9 @@ namespace HutongGames.PlayMaker.Actions
 
         public override string ErrorCheck()
         {
-            /* We could only error check if when we re-cache,
+            /* We could only error check if when we recache,
              * however NeedToUpdateCache() is not super robust
-             * So for now we just re cache every frame in editor
+             * So for now we just recache every frame in editor
              * Need to test editor perf...
             if (!NeedToUpdateCache())
             {

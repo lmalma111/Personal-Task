@@ -159,9 +159,6 @@ public class PlayMakerUGuiComponentProxy : MonoBehaviour {
 				{
 					fsmBoolTarget = FsmVariables.GlobalVariables.FindFsmBool(fsmVariableSetup.variableName);
 					
-				}else if (fsmVariableSetup.variableType == VariableType.Int)
-				{
-					fsmIntTarget = FsmVariables.GlobalVariables.FindFsmInt(fsmVariableSetup.variableName);
 				}else if (fsmVariableSetup.variableType == VariableType.Float)
 				{
 					fsmFloatTarget = FsmVariables.GlobalVariables.FindFsmFloat(fsmVariableSetup.variableName);
@@ -184,10 +181,6 @@ public class PlayMakerUGuiComponentProxy : MonoBehaviour {
 					if (fsmVariableSetup.variableType == VariableType.Bool)
 					{
 						fsmBoolTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmBool(fsmVariableSetup.variableName);
-						
-					}else if (fsmVariableSetup.variableType == VariableType.Int)
-					{
-						fsmIntTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmInt(fsmVariableSetup.variableName);
 						
 					}else if (fsmVariableSetup.variableType == VariableType.Float)
 					{
@@ -216,10 +209,6 @@ public class PlayMakerUGuiComponentProxy : MonoBehaviour {
 						if (fsmVariableSetup.variableType == VariableType.Bool)
 						{
 							fsmBoolTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmBool(fsmVariableSetup.variableName);
-							
-						}else if (fsmVariableSetup.variableType == VariableType.Int)
-						{
-							fsmIntTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmInt(fsmVariableSetup.variableName);
 							
 						}else if (fsmVariableSetup.variableType == VariableType.Float)
 						{
@@ -250,10 +239,6 @@ public class PlayMakerUGuiComponentProxy : MonoBehaviour {
 						if (fsmVariableSetup.variableType == VariableType.Bool)
 						{
 							fsmBoolTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmBool(fsmVariableSetup.variableName);
-							
-						}else if (fsmVariableSetup.variableType == VariableType.Int)
-						{
-							fsmIntTarget = fsmVariableSetup.fsmComponent.FsmVariables.FindFsmInt(fsmVariableSetup.variableName);
 							
 						}else if (fsmVariableSetup.variableType == VariableType.Float)
 						{
@@ -467,21 +452,6 @@ public class PlayMakerUGuiComponentProxy : MonoBehaviour {
 			Debug.LogError("PlayMakerUGuiComponentProxy on "+this.name+": Fsm Bool MISSING !!",this.gameObject);
 		}
 
-	}
-	void SetFsmVariable(int value)
-	{
-		
-		if (fsmIntTarget != null)
-		{
-			if (debug) Debug.Log("PlayMakerUGuiComponentProxy on " + this.name + ": Fsm Int set to " + value);
-			
-			fsmIntTarget.Value = value;
-		}
-		else
-		{
-			Debug.LogError("PlayMakerUGuiComponentProxy on " + this.name + ": Fsm Int MISSING !!", this.gameObject);
-		}
-		
 	}
 	void SetFsmVariable(float value)
 	{

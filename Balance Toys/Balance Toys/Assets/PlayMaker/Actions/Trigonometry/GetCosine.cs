@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory(ActionCategory.Trigonometry)]
+	[ActionCategory("Trigonometry")]
 	[Tooltip("Get the cosine. You can use degrees, simply check on the DegToRad conversion")]
 	public class GetCosine : FsmStateAction
 	{
@@ -17,7 +17,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
-		[Tooltip("The angle cosine")]
+		[Tooltip("The angle cosinus")]
 		public FsmFloat result;
 		
 		[Tooltip("Repeat every frame.")]
