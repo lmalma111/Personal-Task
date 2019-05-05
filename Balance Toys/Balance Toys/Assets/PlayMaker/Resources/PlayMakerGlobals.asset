@@ -12,15 +12,21 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables:
+    floatVariables: []
+    intVariables:
     - useVariable: 1
-      name: TimeLimitF
+      name: StageNum
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    boolVariables:
+    - useVariable: 1
+      name: IsWin
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
-    intVariables: []
-    boolVariables:
     - useVariable: 1
       name: StartPlay
       tooltip: 
@@ -47,6 +53,6 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000
   events:
   - TimesUp
