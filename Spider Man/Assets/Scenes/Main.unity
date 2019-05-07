@@ -24274,7 +24274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dating
+  m_Text: Start
 --- !u!222 &641370405
 CanvasRenderer:
   m_ObjectHideFlags: 0
