@@ -118,6 +118,12 @@ MonoBehaviour:
       value: 1
     boolVariables:
     - useVariable: 1
+      name: First Cell
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: GameOver
       tooltip: 
       showInInspector: 0
@@ -131,6 +137,12 @@ MonoBehaviour:
       value: 1
     - useVariable: 1
       name: StartPlay
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Sticked
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -220,14 +232,21 @@ MonoBehaviour:
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables: []
-    objectVariables: []
+    objectVariables:
+    - useVariable: 1
+      name: FormerOne
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Rigidbody2D
+      value: {fileID: 0}
     materialVariables: []
     textureVariables: []
     arrayVariables: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
