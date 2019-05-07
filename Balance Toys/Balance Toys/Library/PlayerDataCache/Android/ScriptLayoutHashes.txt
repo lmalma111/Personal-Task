@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/User/Desktop/Balance_190505.apk
+/Users/ryuuyoshimisusumu/Desktop/Balance_0506.apk
 SceneListBegin?
 Assets/Main.unity
 SceneListEnd?

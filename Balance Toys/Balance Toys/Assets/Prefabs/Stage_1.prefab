@@ -127,8 +127,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1400973839744570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: -2.2555299, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalPosition: {x: -5, y: -1.46, z: 0}
+  m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 4356980696770728}
   m_RootOrder: 1
@@ -428,7 +428,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!114 &114312118572286564
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537559671359186}
@@ -1407,7 +1407,7 @@ MonoBehaviour:
   eventHandlerComponentsAdded: 1
 --- !u!114 &114479971483041292
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1472338523431170}
@@ -1752,7 +1752,7 @@ MonoBehaviour:
   eventHandlerComponentsAdded: 1
 --- !u!114 &114576510466535842
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537559671359186}
