@@ -136,6 +136,12 @@ MonoBehaviour:
       networkSync: 0
       value: 1
     - useVariable: 1
+      name: Shooter Reset
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: StartPlay
       tooltip: 
       showInInspector: 0
@@ -231,7 +237,19 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: FormerGO
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 1638635553334690, guid: 17aab9eba43c9a24aab86b6d863acb16, type: 2}
+    - useVariable: 1
+      name: NewHook
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables:
     - useVariable: 1
       name: FormerOne
@@ -242,11 +260,24 @@ MonoBehaviour:
       value: {fileID: 0}
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: Hook And Node
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
@@ -259,3 +290,4 @@ MonoBehaviour:
   - Open Result UI
   - ToPhase1
   - ToPhase2
+  - Destroy Line

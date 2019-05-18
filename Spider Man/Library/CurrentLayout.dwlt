@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 342
     height: 947
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 30
+  controlID: 126
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,10 +156,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 1313, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 1313, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 125
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 802, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 120
+  controlID: 11
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 21}
   - {fileID: 17}
   m_Selected: 2
-  m_LastSelected: 3
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,9 +362,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a3a0000
-    m_LastClickedID: 14874
-    m_ExpandedIDs: 000000001a3700001a3a000000ca9a3b
+    m_SelectedIDs: 183a0000
+    m_LastClickedID: 14872
+    m_ExpandedIDs: 000000001a370000183a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a3700001a3a0000
+    m_ExpandedIDs: 000000001a370000183a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,7 +518,7 @@ MonoBehaviour:
       width: 2797.9646
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.4185185
+  m_defaultScale: 0.6026667
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1171, y: 469}
@@ -552,14 +552,14 @@ MonoBehaviour:
     height: 469
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 8172.8021528161125
+  lastFramingTime: 3050.385982751336
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.177161, y: -0.8159664, z: 0.03874007}
+    m_Target: {x: -10.213102, y: -1.930076, z: 0.086386465}
     speed: 2
-    m_Value: {x: 4.177161, y: -0.8159664, z: 0.03874007}
+    m_Value: {x: -10.213102, y: -1.930076, z: 0.086386465}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -591,9 +591,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.411324
+    m_Target: 17.150808
     speed: 2
-    m_Value: 13.411324
+    m_Value: 17.150808
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -773,7 +773,656 @@ MonoBehaviour:
       zoom: 1
     selectionHistory:
       backList:
-      - fsmComponentID: -1830812
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2896760
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2896754
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2176192
+        fsmComponent: {fileID: 114265411767325390, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2186948
+        fsmComponent: {fileID: 114991014030591402, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2176192
+        fsmComponent: {fileID: 114265411767325390, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2186948
+        fsmComponent: {fileID: 114991014030591402, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2176192
+        fsmComponent: {fileID: 114265411767325390, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2176192
+        fsmComponent: {fileID: 114265411767325390, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24354
+        fsmComponent: {fileID: 114104106498160742, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24354
+        fsmComponent: {fileID: 114104106498160742, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24354
+        fsmComponent: {fileID: 114104106498160742, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24360
+        fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 16566
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24512
+        fsmComponent: {fileID: 114434738242185360, guid: 5a3dc2f502cda21498dcbceb84f57df8,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 19012
+        fsmComponent: {fileID: 114384914676435790, guid: 9a17c9235fa26ff4bba2f02cd46314ff,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 16970
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24416
@@ -799,9 +1448,6 @@ MonoBehaviour:
       - fsmComponentID: 24414
         fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24464
         fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
@@ -839,9 +1485,6 @@ MonoBehaviour:
         fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 24464
         fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
           type: 2}
@@ -914,9 +1557,6 @@ MonoBehaviour:
         fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 18096
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 24458
         fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
           type: 2}
@@ -925,15 +1565,9 @@ MonoBehaviour:
         fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 24420
         fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24458
         fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
@@ -947,12 +1581,6 @@ MonoBehaviour:
         fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 24420
         fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
@@ -960,9 +1588,6 @@ MonoBehaviour:
       - fsmComponentID: 24458
         fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
           type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
-        fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24458
         fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
@@ -1601,21 +2226,6 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       forwardList: []
       selectionCache:
-      - fsmComponentID: 23598
-        fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames:
-        - Init
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 23508
-        fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
       - fsmComponentID: 23632
         fsmTemplate: {fileID: 0}
         stateName: 
@@ -1623,35 +2233,36 @@ MonoBehaviour:
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24420
+      - fsmComponentID: 16970
         fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: -18.000122, y: -23.640045}
-        zoom: 0.8800001
-      - fsmComponentID: 24274
-        fsmTemplate: {fileID: 0}
-        stateName: Init
+        stateName: Wait
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24464
+      - fsmComponentID: 19012
         fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 24562
-        fsmTemplate: {fileID: 0}
-        stateName: Init
+        stateName: Controllable
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24458
+      - fsmComponentID: 24412
+        fsmTemplate: {fileID: 0}
+        stateName: ResetShooter
+        stateNames:
+        - ResetShooter
+        transitionIndex: -1
+        scrollPosition: {x: -16, y: 0}
+        zoom: 1
+      - fsmComponentID: 24512
+        fsmTemplate: {fileID: 0}
+        stateName: Random Torque
+        stateNames: []
+        transitionIndex: 0
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 24406
         fsmTemplate: {fileID: 0}
         stateName: Flying
         stateNames:
@@ -1659,43 +2270,7 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24558
-        fsmTemplate: {fileID: 0}
-        stateName: Random Torque
-        stateNames: []
-        transitionIndex: 0
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 24414
-        fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: -1062
-        fsmTemplate: {fileID: 0}
-        stateName: 
-        stateNames: []
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 24560
-        fsmTemplate: {fileID: 0}
-        stateName: Idle
-        stateNames: []
-        transitionIndex: 0
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 18096
-        fsmTemplate: {fileID: 0}
-        stateName: Jump
-        stateNames:
-        - Jump
-        transitionIndex: -1
-        scrollPosition: {x: 0, y: 0}
-        zoom: 1
-      - fsmComponentID: 24416
+      - fsmComponentID: 24362
         fsmTemplate: {fileID: 0}
         stateName: InAir
         stateNames:
@@ -1703,28 +2278,72 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 24556
+      - fsmComponentID: 17384
         fsmTemplate: {fileID: 0}
-        stateName: Idle
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -1188
+        fsmTemplate: {fileID: 0}
+        stateName: ' '
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 19048
+      - fsmComponentID: 18904
         fsmTemplate: {fileID: 0}
-        stateName: Controllable
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 16566
+        fsmTemplate: {fileID: 0}
+        stateName: Get Resolution
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: 122568
+      - fsmComponentID: 24514
         fsmTemplate: {fileID: 0}
-        stateName: Idle
+        stateName: Init
         stateNames: []
         transitionIndex: 0
         scrollPosition: {x: 0, y: 0}
         zoom: 1
-      - fsmComponentID: -1830812
+      - fsmComponentID: 24360
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: 24366
+        fsmTemplate: {fileID: 0}
+        stateName: State 1
+        stateNames:
+        - State 1
+        transitionIndex: -1
+        scrollPosition: {x: -72.02344, y: -47.74997}
+        zoom: 0.7600002
+      - fsmComponentID: -190756
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -397094
+        fsmTemplate: {fileID: 0}
+        stateName: Become Former
+        stateNames:
+        - Become Former
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 16}
+        zoom: 1
+      - fsmComponentID: 24354
         fsmTemplate: {fileID: 0}
         stateName: Controllable
         stateNames:
@@ -1732,27 +2351,106 @@ MonoBehaviour:
         transitionIndex: -1
         scrollPosition: {x: 0, y: 0}
         zoom: 1
+      - fsmComponentID: -2176192
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -2186948
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -2896754
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
+      - fsmComponentID: -2896760
+        fsmTemplate: {fileID: 0}
+        stateName: 
+        stateNames: []
+        transitionIndex: -1
+        scrollPosition: {x: 0, y: 0}
+        zoom: 1
       recentlySelectedList:
-      - fsmComponentID: -1830812
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24416
-        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+      - fsmComponentID: -190756
+        fsmComponent: {fileID: 114784068480856876, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24420
-        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+      - fsmComponentID: -397094
+        fsmComponent: {fileID: 114772110690445592, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24464
-        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24414
+      - fsmComponentID: 24360
         fsmComponent: {fileID: 114835452416721614, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: -1062
+      - fsmComponentID: 24514
+        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2896760
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2896754
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24362
+        fsmComponent: {fileID: 114257521774180818, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 18904
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24366
+        fsmComponent: {fileID: 114098737304654996, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2176192
+        fsmComponent: {fileID: 114265411767325390, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -2186948
+        fsmComponent: {fileID: 114991014030591402, guid: 2a43d3c8fcd4ba54796ad1d8c66e2d08,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 17384
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24406
+        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24354
+        fsmComponent: {fileID: 114104106498160742, guid: 17aab9eba43c9a24aab86b6d863acb16,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: -1188
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24412
+        fsmComponent: {fileID: 114570073090400284, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 16566
+        fsmComponent: {fileID: 0}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 24512
+        fsmComponent: {fileID: 114434738242185360, guid: 5a3dc2f502cda21498dcbceb84f57df8,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 19012
+        fsmComponent: {fileID: 114384914676435790, guid: 9a17c9235fa26ff4bba2f02cd46314ff,
+          type: 2}
+        fsmTemplate: {fileID: 0}
+      - fsmComponentID: 16970
         fsmComponent: {fileID: 0}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24560
@@ -1763,27 +2461,8 @@ MonoBehaviour:
         fsmComponent: {fileID: 114217222592898860, guid: 45a6747404ae7cd4ea1bc4efd20cfd38,
           type: 2}
         fsmTemplate: {fileID: 0}
-      - fsmComponentID: 19048
-        fsmComponent: {fileID: 114384914676435790, guid: 9a17c9235fa26ff4bba2f02cd46314ff,
-          type: 2}
-        fsmTemplate: {fileID: 0}
       - fsmComponentID: 24556
         fsmComponent: {fileID: 114084001338247262, guid: cb86aad33877cd34181a96d9cbfe4463,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24458
-        fsmComponent: {fileID: 114284296495686298, guid: 3f37f28a49e46f24898fd5f3fcc2071c,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 18096
-        fsmComponent: {fileID: 0}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24558
-        fsmComponent: {fileID: 114434738242185360, guid: 5a3dc2f502cda21498dcbceb84f57df8,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: 24562
-        fsmComponent: {fileID: 114077606005156254, guid: 80ba41b1ce4766348b25854c5e453345,
           type: 2}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 24274
@@ -1792,10 +2471,6 @@ MonoBehaviour:
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 21096
         fsmComponent: {fileID: 114731916431448256, guid: 16356029dee7ba846b9db653f8a5e4cb,
-          type: 2}
-        fsmTemplate: {fileID: 0}
-      - fsmComponentID: -73866
-        fsmComponent: {fileID: 114104106498160742, guid: 17aab9eba43c9a24aab86b6d863acb16,
           type: 2}
         fsmTemplate: {fileID: 0}
       - fsmComponentID: 23598
@@ -1894,24 +2569,24 @@ MonoBehaviour:
     height: 295
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 80}
-    m_SelectedIDs: 7210e4ff
-    m_LastClickedID: -1830798
-    m_ExpandedIDs: 92fbffffa0fbffffe0fbffff0000000096450000f8490000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 363d0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 607fddff4cfbffffe0fbffff000000000841000074440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Node(Clone)
+      m_OriginalName: Node(Clone)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1013994
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
