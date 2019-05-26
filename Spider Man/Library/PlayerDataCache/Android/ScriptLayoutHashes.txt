@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/ryuuyoshimisusumu/Desktop/SOD_1228.apk
+C:/Users/User/Desktop/Spider_190526.apk
 SceneListBegin?
 Assets/Scenes/Main.unity
 SceneListEnd?
