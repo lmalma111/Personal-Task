@@ -205,6 +205,16 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114833339103763190, guid: fe3ec08e4a508e84c8d8453296ed607d,
+        type: 2}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114833339103763190, guid: fe3ec08e4a508e84c8d8453296ed607d,
+        type: 2}
+      propertyPath: fsm.handleFixedUpdate
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe3ec08e4a508e84c8d8453296ed607d, type: 2}
   m_IsPrefabAsset: 0
@@ -4455,7 +4465,7 @@ GameObject:
   - component: {fileID: 94752414}
   - component: {fileID: 94752413}
   m_Layer: 5
-  m_Name: Background (1)
+  m_Name: Touch Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5177,8 +5187,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 94752412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.482, z: 0.046092223}
-  m_LocalScale: {x: 21, y: 3.688271, z: 1}
+  m_LocalPosition: {x: -0.3, y: -18.65, z: 0.046092223}
+  m_LocalScale: {x: 21, y: 14.937498, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -12655,7 +12665,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: 
+          name: origin_Py
           tooltip: 
           showInInspector: 0
           networkSync: 0
