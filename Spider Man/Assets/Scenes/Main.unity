@@ -210,6 +210,42 @@ Prefab:
       propertyPath: m_Name
       value: SpiderMan
       objectReference: {fileID: 0}
+    - target: {fileID: 212400900287354460, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 807103544dc72413d93d69b691985324,
+        type: 3}
+    - target: {fileID: 58502792507027084, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58502792507027084, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.408072
+      objectReference: {fileID: 0}
+    - target: {fileID: 58502792507027084, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.0027856827
+      objectReference: {fileID: 0}
+    - target: {fileID: 212400900287354460, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212400900287354460, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212400900287354460, guid: 707c4e6cc021147b58442eae913b4a8a,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 707c4e6cc021147b58442eae913b4a8a, type: 2}
   m_IsPrefabAsset: 0
