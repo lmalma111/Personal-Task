@@ -857,7 +857,6 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetComponent
         - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.GetOwner
-        - HutongGames.PlayMaker.Actions.GetOwner
         - HutongGames.PlayMaker.Actions.EnableFSM
         customNames:
         - 
@@ -866,19 +865,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01000000000001
-        actionStartIndex: 000000000300000006000000090000000c0000000d0000000e000000
-        actionHashCodes: ff77a90427fbe10304d8140227fbe1035c0045055c00450587aa9700
+        actionEnabled: 010101010101
+        actionIsOpen: 010000000001
+        actionStartIndex: 000000000300000006000000090000000c0000000d000000
+        actionHashCodes: ff77a90427fbe10304d8140227fbe1035c00450587aa9700
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 1
-          name: FormerGO
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
         - useVariable: 1
           name: SpiderMan
           tooltip: 
@@ -983,7 +975,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 070000001700000011000000110000001100000001000000140000001800000001000000110000001100000001000000130000001300000014000000120000001100000011000000
+        paramDataType: 0700000017000000110000001100000011000000010000001400000018000000010000001100000011000000010000001300000014000000120000001100000011000000
         paramName:
         - key
         - sendEvent
@@ -998,13 +990,12 @@ MonoBehaviour:
         - boolValue
         - everyFrame
         - storeGameObject
-        - storeGameObject
         - gameObject
         - fsmName
         - enable
         - resetOnExit
-        paramDataPos: 000000000000000000000000010000000200000004000000000000000000000005000000030000000400000006000000000000000100000001000000000000000500000006000000
-        paramByteDataSize: 040000000000000000000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000100000002000000040000000000000000000000050000000300000004000000060000000000000001000000000000000500000006000000
+        paramByteDataSize: 0400000000000000000000000000000000000000010000000000000000000000010000000000000000000000010000000000000000000000000000000000000000000000
     - name: Shoot
       description: 
       colorIndex: 0
@@ -2390,7 +2381,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 30
+          value: 50
         - useVariable: 1
           name: Amplified Vx
           tooltip: 
@@ -2408,7 +2399,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 30
+          value: 50
         - useVariable: 1
           name: Amplified Vy
           tooltip: 
@@ -2539,7 +2530,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 30
+        value: 50
       intVariables: []
       boolVariables: []
       stringVariables: []
