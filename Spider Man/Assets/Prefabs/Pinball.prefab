@@ -38,7 +38,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1210720901849450
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,10 +94,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 0.5
+  m_GravityScale: 0.8
   m_Material: {fileID: 6200000, guid: eef63644657f347749c2b609e1e6662f, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -2816,7 +2816,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 30
+        value: 40
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -2843,7 +2843,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

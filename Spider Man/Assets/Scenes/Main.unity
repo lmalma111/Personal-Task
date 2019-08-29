@@ -206,10 +206,6 @@ Prefab:
       value: 
       objectReference: {fileID: 1638635553334690, guid: 17aab9eba43c9a24aab86b6d863acb16,
         type: 2}
-    - target: {fileID: 1105498917895142, guid: a639335aac4a549f9b82231eaaeb7d65, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a639335aac4a549f9b82231eaaeb7d65, type: 2}
   m_IsPrefabAsset: 0
@@ -23918,7 +23914,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 5
         - useVariable: 0
           name: 
           tooltip: 
@@ -24113,7 +24109,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 5
         - useVariable: 0
           name: 
           tooltip: 

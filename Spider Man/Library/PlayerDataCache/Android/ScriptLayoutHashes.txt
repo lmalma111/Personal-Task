@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/ryuuyoshimisusumu/Downloads/Spider.apk
+/Users/ryuuyoshimisusumu/Downloads/Pinball.apk
 SceneListBegin?
 Assets/Scenes/Main.unity
 SceneListEnd?
@@ -320,3 +320,10 @@ ca6d437f4d65d0de1a55281862c55db2 Assembly-CSharp.dll:HutongGames.PlayMaker.Ecosy
 0076ec15dda030330bfcebd65a836408 Cinemachine.dll:Cinemachine.CinemachineBasicMultiChannelPerlin
 5f6f9b1bdbfe6ed5ee40451bad77f5ea Cinemachine.dll:Cinemachine.CinemachineClearShot
 9a86808d601482166fc1181d0cc378ac Assembly-CSharp.dll:.ArrayListTable
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.csDestroyEffect
+d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.csParticleMove
+aae56c50070b928b12ccabc121aa1119 Assembly-CSharp.dll:.csMouseOrbit
+ae814132639fce55328504ab28b48945 Assembly-CSharp.dll:.csParticleEffectPackLightControl
+4e560776505fe28a2f5dc3192c609415 Assembly-CSharp.dll:.csShowAllEffect
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.csShurikenEffectChanger
+7260a65f53aa614d8ec49da5f2a23533 Assembly-CSharp.dll:.csShurikenEffectEditor
