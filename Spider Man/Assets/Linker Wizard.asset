@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Linker Wizard
   m_EditorClassIdentifier: 
   debug: 1
-  LinkContentUpdateDone: 0
-  Asset: {fileID: 0}
-  AssetPath: 
+  LinkContentUpdateDone: 1
+  Asset: {fileID: 4900000, guid: ef1561f9163174b76918a0ca97c8f180, type: 3}
+  AssetPath: Assets/link.xml
   self: {fileID: 11400000}
   PlayModeFlag: 0

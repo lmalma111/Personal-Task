@@ -12,4 +12,8 @@
   <assembly fullname="ConditionalExpression">
     <type fullname="PlayMaker.ConditionalExpression.ConditionalExpression" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule">
+    <type fullname="UnityEngine.HingeJoint2D" preserve="all" />
+    <type fullname="UnityEngine.FixedJoint2D" preserve="all" />
+  </assembly>
 </linker>
