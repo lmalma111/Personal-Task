@@ -2816,7 +2816,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 40
+        value: 80
       intVariables: []
       boolVariables: []
       stringVariables: []
