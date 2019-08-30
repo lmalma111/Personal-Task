@@ -593,13 +593,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.Collision2dEvent
         - HutongGames.PlayMaker.Actions.Collision2dEvent
+        - HutongGames.PlayMaker.Actions.Collision2dEvent
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000006000000
-        actionHashCodes: 69cd8c0169cd8c01
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000060000000c000000
+        actionHashCodes: 69cd8c0169cd8c0169cd8c01
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -614,7 +616,21 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
+        - useVariable: 1
+          name: HitTarget
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -650,11 +666,23 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Magnet
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Goal
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -677,12 +705,13 @@ MonoBehaviour:
         stringParams:
         - Go Stick
         - Go Stick
-        byteData: 0000000000000000
+        - Go Stick
+        byteData: 000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f000000
+        paramDataType: 14000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f000000
         paramName:
         - gameObject
         - collision
@@ -696,8 +725,14 @@ MonoBehaviour:
         - sendEvent
         - storeCollider
         - storeForce
-        paramDataPos: 000000000000000000000000000000000000000000000000010000000400000001000000010000000100000001000000
-        paramByteDataSize: 000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000
+        - gameObject
+        - collision
+        - collideTag
+        - sendEvent
+        - storeCollider
+        - storeForce
+        paramDataPos: 000000000000000000000000000000000000000000000000010000000400000001000000010000000100000001000000020000000800000002000000020000000200000002000000
+        paramByteDataSize: 000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: Stick
       description: 
       colorIndex: 0
@@ -716,11 +751,11 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetComponent
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.EnableFSM
         - HutongGames.PlayMaker.Actions.EnableFSM
-        - HutongGames.PlayMaker.Actions.SetProperty
-        - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SendEventByName
         customNames:
         - 
@@ -732,10 +767,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010001010101
+        actionEnabled: 010101010101000101
         actionIsOpen: 000000000000000000
-        actionStartIndex: 000000000300000006000000090000000c0000001000000014000000170000001a000000
-        actionHashCodes: 04d8140266328a0566328a0527fbe10387aa970087aa970066328a0566328a05ba7ea101
+        actionStartIndex: 000000000300000006000000090000000c0000000f00000012000000160000001a000000
+        actionHashCodes: 04d8140266328a0566328a0566328a0566328a0527fbe10387aa970087aa9700ba7ea101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1415,11 +1450,17 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000180000000100000024000000010000000100000024000000010000000100000011000000110000000100000014000000120000001100000011000000140000001200000011000000110000002400000001000000010000002400000001000000010000001f000000120000000f00000001000000
+        paramDataType: 14000000180000000100000024000000010000000100000024000000010000000100000024000000010000000100000024000000010000000100000011000000110000000100000014000000120000001100000011000000140000001200000011000000110000001f000000120000000f00000001000000
         paramName:
         - gameObject
         - storeComponent
         - everyFrame
+        - targetProperty
+        - everyFrame
+        - debug
+        - targetProperty
+        - everyFrame
+        - debug
         - targetProperty
         - everyFrame
         - debug
@@ -1437,18 +1478,12 @@ MonoBehaviour:
         - fsmName
         - enable
         - resetOnExit
-        - targetProperty
-        - everyFrame
-        - debug
-        - targetProperty
-        - everyFrame
-        - debug
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000010000000200000001000000030000000400000000000000010000000500000001000000000000000200000003000000020000000100000004000000050000000200000006000000070000000300000008000000090000000000000002000000000000000a000000
-        paramByteDataSize: 000000000000000001000000000000000100000001000000000000000100000001000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000010000000100000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000010000000200000001000000030000000400000002000000050000000600000003000000070000000800000000000000010000000900000001000000000000000200000003000000020000000100000004000000050000000000000002000000000000000a000000
+        paramByteDataSize: 000000000000000001000000000000000100000001000000000000000100000001000000000000000100000001000000000000000100000001000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2417,7 +2452,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2451,7 +2486,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114482861430350802
 MonoBehaviour:
   m_ObjectHideFlags: 2
