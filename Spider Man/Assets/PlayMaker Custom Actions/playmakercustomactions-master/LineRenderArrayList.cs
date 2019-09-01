@@ -14,7 +14,8 @@ namespace HutongGames.PlayMaker.Actions
 	    [RequiredField]
 		[Tooltip("The gameObject with the PlayMaker ArrayList Proxy component")]
 		[CheckForComponent(typeof(PlayMakerArrayListProxy))]
-		public FsmOwnerDefault gameObject;
+        [CheckForComponent(typeof(LineRenderer))]
+        public FsmOwnerDefault gameObject;
 		
 		[Tooltip("Author defined Reference of the PlayMaker ArrayList Proxy component ( necessary if several component coexists on the same GameObject")]
 		public FsmString reference;
@@ -49,13 +50,14 @@ namespace HutongGames.PlayMaker.Actions
 		public override void OnEnter()
 		{
 			go = Fsm.GetOwnerDefaultTarget(gameObject);
-			
-			lineRenderer = go.AddComponent<LineRenderer>();
+
+            //lineRenderer = go.AddComponent<LineRenderer>();
+            lineRenderer = go.GetComponent<LineRenderer>();
 			lineRenderer.material = lineMaterial.Value;
 			lineRenderer.SetColors(c1.Value, c2.Value);
 			lineRenderer.SetWidth(width1.Value, width2.Value);
-			
-			if ( SetUpArrayListProxyPointer(Fsm.GetOwnerDefaultTarget(gameObject),reference.Value) )
+
+            if ( SetUpArrayListProxyPointer(Fsm.GetOwnerDefaultTarget(gameObject),reference.Value) )
 			renderArrayList();
 			
 			if (!everyFrame)

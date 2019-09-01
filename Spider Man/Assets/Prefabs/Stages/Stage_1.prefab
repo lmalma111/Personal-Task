@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4873550308645746}
   - component: {fileID: 212257375673615588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text_Touch to shoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4222642331728118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moving_Bar_Set
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 212242460895227314}
   - component: {fileID: 61781637919497560}
   - component: {fileID: 50744579551467418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeadZone (2)
   m_TagString: Magnet
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4880219912262912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: End_Postion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 212247600167388772}
   - component: {fileID: 61459821655067798}
   - component: {fileID: 50544197345493684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 212966524825432302}
   - component: {fileID: 61287107768444034}
   - component: {fileID: 50283007064355710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434924626702978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: End_Postion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4503578880823796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Start_Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4264882326140016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Start_Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 212086298182208424}
   - component: {fileID: 61445831943928422}
   - component: {fileID: 50154375308792020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Goal
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 61015171056864446}
   - component: {fileID: 50574145496786152}
   - component: {fileID: 114640499774035008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moving_Bar
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 61148842766601092}
   - component: {fileID: 50807980565827546}
   - component: {fileID: 114342845205604696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moving_Bar
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4330677981538758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stage_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 212583715562460830}
   - component: {fileID: 61732453541678020}
   - component: {fileID: 50115342473038738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeadZone (1)
   m_TagString: Magnet
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 212863464646469484}
   - component: {fileID: 61486131365326824}
   - component: {fileID: 50996089710477280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4520738468528388}
   - component: {fileID: 212352827827562126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text_Red is danger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 212315552160516510}
   - component: {fileID: 61064010879665790}
   - component: {fileID: 50800438149385070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeadZone
   m_TagString: Magnet
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 212655408449799704}
   - component: {fileID: 61163057961932604}
   - component: {fileID: 50250179865115588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 212994232276780180}
   - component: {fileID: 61992698836154852}
   - component: {fileID: 50801227350973888}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4746750464813980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moving_Bar_Set (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 212176717708275056}
   - component: {fileID: 61910714526521780}
   - component: {fileID: 50034186125730490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bar
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -375,7 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4879917464939414}
   - component: {fileID: 212389794340275808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text_Yellow is goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
