@@ -1614,6 +1614,28 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.Vector3Operator
         - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.Vector3Operator
+        - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.SetBoolValue
         customNames:
         - 
@@ -1661,13 +1683,244 @@ MonoBehaviour:
         - Create Object 19
         - Vector3 Operator 20
         - Create Object 20
+        - Vector3 Operator 21
+        - Create Object 21
+        - Vector3 Operator 22
+        - Create Object 22
+        - Vector3 Operator 23
+        - Create Object 23
+        - Vector3 Operator 24
+        - Create Object 24
+        - Vector3 Operator 25
+        - Create Object 25
+        - Vector3 Operator 26
+        - Create Object 26
+        - Vector3 Operator 27
+        - Create Object 27
+        - Vector3 Operator 28
+        - Create Object 28
+        - Vector3 Operator 29
+        - Create Object 29
+        - Vector3 Operator 30
+        - Create Object 30
+        - Vector3 Operator 31
+        - Create Object 31
         - 
-        actionEnabled: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-        actionIsOpen: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-        actionStartIndex: 00000000070000000e000000140000001a00000020000000260000002b00000031000000360000003c00000041000000470000004c00000052000000570000005d00000062000000680000006d00000073000000780000007e00000083000000890000008e00000094000000990000009f000000a4000000aa000000af000000b5000000ba000000c0000000c5000000cb000000d0000000d6000000db000000e1000000e6000000ec000000f1000000f7000000fc000000
-        actionHashCodes: 5552ad055552ad05a7550203a7550203a7550203a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c90027fbe103
+        actionEnabled: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+        actionIsOpen: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100
+        actionStartIndex: 00000000070000000e000000140000001a00000020000000260000002b00000031000000360000003c00000041000000470000004c00000052000000570000005d00000062000000680000006d00000073000000780000007e00000083000000890000008e00000094000000990000009f000000a4000000aa000000af000000b5000000ba000000c0000000c5000000cb000000d0000000d6000000db000000e1000000e6000000ec000000f1000000f7000000fc00000002010000070100000d01000012010000180100001d01000023010000280100002e01000033010000390100003e01000044010000490100004f010000540100005a0100005f010000650100006a0100007001000075010000
+        actionHashCodes: 5552ad055552ad05a7550203a7550203a7550203a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c900a7550203bf83c90027fbe103
         unityObjectParams: []
         fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 1794998400397568, guid: 81824528b94ae3d4ab917db57649f6a7,
+            type: 2}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         - useVariable: 0
           name: 
           tooltip: 
@@ -2251,6 +2504,72 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
@@ -2308,7 +2627,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 21, y: 21, z: 21}
+          value: {x: 31, y: 31, z: 31}
         - useVariable: 1
           name: Delta
           tooltip: 
@@ -2923,6 +3242,336 @@ MonoBehaviour:
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
           name: NodePos20
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos20
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos21
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos21
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos21
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos22
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos22
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos22
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos23
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos23
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos23
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos24
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos24
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos24
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos25
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos25
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos25
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos26
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos26
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos26
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos27
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos27
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos27
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos28
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos28
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos28
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos29
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos29
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos29
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos30
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos30
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos30
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: Delta
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos31
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: NodePos31
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2937,12 +3586,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000000000000000000700000000090000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000000
+        byteData: 00000000000000000000070000000009000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000006000000000600000000060000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000140000001c0000000f0000000f0000000f00000007000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c00000013000000110000001100000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000140000001c0000000f0000000f0000000f00000007000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f000000010000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c000000130000001c0000001c000000070000001c0000000f0000000100000013000000130000001c0000001c00000013000000110000001100000001000000
         paramName:
         - gameObject
         - vector
@@ -3196,11 +3845,132 @@ MonoBehaviour:
         - position
         - rotation
         - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        - vector1
+        - vector2
+        - operation
+        - storeVector3Result
+        - storeFloatResult
+        - everyFrame
+        - gameObject
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
         - boolVariable
         - boolValue
         - everyFrame
-        paramDataPos: 000000000000000000000000010000000200000000000000040000000100000001000000030000000400000005000000050000000900000002000000030000000a00000004000000060000000e00000005000000060000000f0000000700000007000000130000000800000009000000140000000a00000008000000180000000b0000000c000000190000000d000000090000001d00000000000000010000000e0000000f0000000200000010000000110000001e000000120000000a000000220000000300000004000000130000001400000005000000150000001600000023000000170000000b0000002700000006000000070000001800000019000000080000001a0000001b000000280000001c0000000c0000002c000000090000000a0000001d0000001e0000000b0000001f000000200000002d000000210000000d000000310000000c0000000d00000022000000230000000e000000240000002500000032000000260000000e000000360000000f00000010000000270000002800000011000000290000002a000000370000002b0000000f0000003b00000012000000130000002c0000002d000000140000002e0000002f0000003c0000003000000010000000400000001500000016000000310000003200000017000000330000003400000041000000350000001100000045000000180000001900000036000000370000001a0000003800000039000000460000003a000000120000004a0000001b0000001c0000003b0000003c0000001d0000003d0000003e0000004b0000003f000000130000004f0000001e0000001f000000400000004100000020000000420000004300000050000000440000001400000054000000210000002200000045000000460000002300000047000000480000005500000049000000150000005900000024000000250000004a0000004b000000260000004c0000004d0000005a0000004e000000160000005e00000027000000280000004f000000500000002900000051000000520000005f0000005300000017000000630000002a0000002b00000054000000550000002c0000005600000057000000640000005800000018000000680000002d0000002e000000590000005a0000002f0000005b0000005c000000690000005d000000190000006d00000030000000310000005e0000005f0000003200000060000000610000006e000000620000001a000000720000003300000034000000630000006400000035000000650000006600000073000000670000001b0000007700000036000000370000006800000069000000380000006a0000006b000000780000006c0000001c0000007c000000390000003a0000006d0000006e0000003b00000000000000010000007d000000
-        paramByteDataSize: 000000000000000000000000000000000000000004000000010000000000000000000000000000000000000000000000040000000100000000000000000000000400000000000000000000000100000000000000000000000400000000000000000000000100000000000000000000000400000000000000000000000100000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000000000000010000000200000000000000040000000100000001000000030000000400000005000000050000000900000002000000030000000a00000004000000060000000e00000005000000060000000f0000000700000007000000130000000800000009000000140000000a00000008000000180000000b0000000c000000190000000d000000090000001d00000000000000010000000e0000000f0000000200000010000000110000001e000000120000000a000000220000000300000004000000130000001400000005000000150000001600000023000000170000000b0000002700000006000000070000001800000019000000080000001a0000001b000000280000001c0000000c0000002c000000090000000a0000001d0000001e0000000b0000001f000000200000002d000000210000000d000000310000000c0000000d00000022000000230000000e000000240000002500000032000000260000000e000000360000000f00000010000000270000002800000011000000290000002a000000370000002b0000000f0000003b00000012000000130000002c0000002d000000140000002e0000002f0000003c0000003000000010000000400000001500000016000000310000003200000017000000330000003400000041000000350000001100000045000000180000001900000036000000370000001a0000003800000039000000460000003a000000120000004a0000001b0000001c0000003b0000003c0000001d0000003d0000003e0000004b0000003f000000130000004f0000001e0000001f000000400000004100000020000000420000004300000050000000440000001400000054000000210000002200000045000000460000002300000047000000480000005500000049000000150000005900000024000000250000004a0000004b000000260000004c0000004d0000005a0000004e000000160000005e00000027000000280000004f000000500000002900000051000000520000005f0000005300000017000000630000002a0000002b00000054000000550000002c0000005600000057000000640000005800000018000000680000002d0000002e000000590000005a0000002f0000005b0000005c000000690000005d000000190000006d00000030000000310000005e0000005f0000003200000060000000610000006e000000620000001a000000720000003300000034000000630000006400000035000000650000006600000073000000670000001b0000007700000036000000370000006800000069000000380000006a0000006b000000780000006c0000001c0000007c000000390000003a0000006d0000006e0000003b0000006f000000700000007d000000710000001d000000810000003c0000003d00000072000000730000003e000000740000007500000082000000760000001e000000860000003f00000040000000770000007800000041000000790000007a000000870000007b0000001f0000008b00000042000000430000007c0000007d000000440000007e0000007f0000008c0000008000000020000000900000004500000046000000810000008200000047000000830000008400000091000000850000002100000095000000480000004900000086000000870000004a0000008800000089000000960000008a000000220000009a0000004b0000004c0000008b0000008c0000004d0000008d0000008e0000009b0000008f000000230000009f0000004e0000004f0000009000000091000000500000009200000093000000a00000009400000024000000a400000051000000520000009500000096000000530000009700000098000000a50000009900000025000000a900000054000000550000009a0000009b000000560000009c0000009d000000aa0000009e00000026000000ae00000057000000580000009f000000a000000059000000a1000000a2000000af000000a300000027000000b30000005a0000005b000000a4000000a50000005c0000000000000001000000b4000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000000000000000000000000000000000000000000004000000010000000000000000000000040000000000000000000000010000000000000000000000040000000000000000000000010000000000000000000000040000000000000000000000010000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3313,7 +4083,73 @@ MonoBehaviour:
         networkSync: 0
         value: {x: 0, y: 0, z: 0}
       - useVariable: 1
+        name: NodePos21
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos22
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos23
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos24
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos25
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos26
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos27
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos28
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos29
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
         name: NodePos3
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos30
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: NodePos31
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3371,7 +4207,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -3381,7 +4217,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

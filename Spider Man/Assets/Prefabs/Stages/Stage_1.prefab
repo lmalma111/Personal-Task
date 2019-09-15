@@ -1738,7 +1738,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Going Left
+        toState: Going Start
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1748,7 +1748,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 01
+        actionIsOpen: 00
         actionStartIndex: 00000000
         actionHashCodes: 7bce7604
         unityObjectParams: []
@@ -1916,14 +1916,14 @@ MonoBehaviour:
         - loopDontFinish
         paramDataPos: 00000000000000000000000000000000000000000100000002000000000000000400000008000000000000000100000001000000030000000c00000001000000040000000000000001000000020000000000000001000000030000000400000005000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000040000000400000004000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - name: Going Left
+    - name: Going Start
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 199
         y: 113
-        width: 100
+        width: 105
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1943,7 +1943,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 01
+        actionIsOpen: 00
         actionStartIndex: 00000000
         actionHashCodes: 7bce7604
         unityObjectParams: []
