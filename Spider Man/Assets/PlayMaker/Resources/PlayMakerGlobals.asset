@@ -51,6 +51,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: Unlock_Stage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    - useVariable: 1
       name: Unlock_Stage1
       tooltip: 
       showInInspector: 0
@@ -123,67 +129,7 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    stringVariables:
-    - useVariable: 1
-      name: Score_Top10_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top1_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top2_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top3_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top4_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top5_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top6_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top7_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top8_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
-      name: Score_Top9_String
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
+    stringVariables: []
     vector2Variables:
     - useVariable: 1
       name: InitialV
@@ -241,7 +187,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Update HP
   - GameOver
