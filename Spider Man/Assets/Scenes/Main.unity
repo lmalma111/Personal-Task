@@ -54279,7 +54279,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1672605167172908, guid: 21dc96e274a893141b8ca9a044b60570,
+          value: {fileID: 1264123342044566, guid: 21dc96e274a893141b8ca9a044b60570,
             type: 2}
         - useVariable: 1
           name: 
@@ -76091,7 +76091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+  m_Color: {r: 0.2735849, g: 0.089044146, b: 0.089044146, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
