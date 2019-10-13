@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61369938172042768}
   - component: {fileID: 50979403426098402}
   - component: {fileID: 114624207274754940}
+  - component: {fileID: 114596826703299304}
   m_Layer: 8
   m_Name: Spin_Bar (1)
   m_TagString: Ground
@@ -147,6 +148,7 @@ GameObject:
   - component: {fileID: 61373661569699990}
   - component: {fileID: 50120807888196156}
   - component: {fileID: 114041503532710018}
+  - component: {fileID: 114971732207361472}
   m_Layer: 8
   m_Name: DeadZone (2)
   m_TagString: Magnet
@@ -374,6 +376,7 @@ GameObject:
   - component: {fileID: 61255928513976294}
   - component: {fileID: 50427350334707436}
   - component: {fileID: 114467761344109940}
+  - component: {fileID: 114703078033516698}
   m_Layer: 8
   m_Name: Spin_Bar
   m_TagString: Ground
@@ -1900,7 +1903,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114263189183565744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2341,7 +2344,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2375,7 +2378,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114467761344109940
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2529,7 +2532,20 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114596826703299304
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024252450036732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114624207274754940}
 --- !u!114 &114624207274754940
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2649,7 +2665,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2675,7 +2691,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 0
+    handleFixedUpdate: 1
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
@@ -2683,7 +2699,33 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114703078033516698
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850020514051312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114467761344109940}
+--- !u!114 &114971732207361472
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411497970620082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114041503532710018}
 --- !u!212 &212023313825468080
 SpriteRenderer:
   m_ObjectHideFlags: 1

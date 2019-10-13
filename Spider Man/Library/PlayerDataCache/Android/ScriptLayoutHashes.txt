@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/ryuuyoshimisusumu/Downloads/Pinball_0830.apk
+C:/Users/User/Desktop/Spider_191013.apk
 SceneListBegin?
 Assets/Scenes/Main.unity
 SceneListEnd?
