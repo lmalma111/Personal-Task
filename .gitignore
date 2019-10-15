@@ -11,6 +11,13 @@ UnityVS.meta
 *.apk
 *.exe
 *.app
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.tmp
+
 /AssetBundles/
 
 # ===================================== #
