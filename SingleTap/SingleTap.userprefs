@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{00966476-0A5C-9FAB-94F9-314C3E2B9ADD}|Unity" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PuzzleView.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BlockDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PuzzleView.cs" Line="30" Column="36" />
+      <File FileName="Assets\Scripts\Manager\CanvasManager.cs" Line="8" Column="11" />
+      <File FileName="Assets\Scripts\Manager\PuzzleManager.cs" Line="30" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+</Properties>
