@@ -1623,15 +1623,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.EnableFSM
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
         - HutongGames.PlayMaker.Actions.GetOwner
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 494916045c004505
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000000
+        actionStartIndex: 000000000400000009000000
+        actionHashCodes: 87aa9700494916045c004505
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -1647,6 +1649,15 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1940943386391396, guid: fb3913afb353f31468d8ac23f46a4ecc,
+              type: 2}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -1667,6 +1678,12 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: Up and Down
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: Goal
         fsmObjectParams: []
         fsmVarParams: []
@@ -1674,7 +1691,19 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -1687,16 +1716,20 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000700000012000000170000001300000013000000
+        paramDataType: 14000000120000001100000011000000140000000700000012000000170000001300000013000000
         paramName:
+        - gameObject
+        - fsmName
+        - enable
+        - resetOnExit
         - gameObject
         - trigger
         - collideTag
         - sendEvent
         - storeCollider
         - storeGameObject
-        paramDataPos: 000000000000000000000000000000000000000001000000
-        paramByteDataSize: 000000000400000000000000000000000000000000000000
+        paramDataPos: 00000000000000000000000001000000010000000000000001000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: ClearEffect
       description: 
       colorIndex: 0
