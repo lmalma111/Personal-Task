@@ -21,11 +21,11 @@ GameObject:
   - component: {fileID: 4693697634074494}
   - component: {fileID: 212971864051531554}
   - component: {fileID: 50893862088923598}
-  - component: {fileID: 58131312402208376}
   - component: {fileID: 233139366941415746}
   - component: {fileID: 114772110690445592}
   - component: {fileID: 114991014030591402}
   - component: {fileID: 114896185548058040}
+  - component: {fileID: 61647408718986816}
   m_Layer: 9
   m_Name: Node
   m_TagString: Ball
@@ -41,7 +41,7 @@ Transform:
   m_GameObject: {fileID: 1794998400397568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: -3.64, z: -0.21383843}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -66,21 +66,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &58131312402208376
-CircleCollider2D:
+--- !u!61 &61647408718986816
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1794998400397568}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: aebef82c144aa4a499632ab90763dc88, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.42, y: 0.42}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Size: {x: 0.42, y: 0.42}
+  m_EdgeRadius: 0
 --- !u!114 &114772110690445592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1278,8 +1288,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6b7e3a89eff6d4d88819f67a395f54e1, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: f90bd3f4f86cfa040a33814a8e03dbe8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
