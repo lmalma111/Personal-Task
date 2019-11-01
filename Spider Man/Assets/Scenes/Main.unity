@@ -2602,14 +2602,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 246
         y: 115
-        width: 102
+        width: 117.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: MOUSE UP
+          name: MOUSE DOWN
           isSystemEvent: 1
           isGlobal: 0
         toState: State 3
@@ -2893,7 +2893,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
