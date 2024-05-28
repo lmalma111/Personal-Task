@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{FF23C268-F9AA-A9CF-A1A6-EED15B35F8DE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SlidingPuzzle.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SlidingPuzzle.cs" Line="197" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sliding Puzzle" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SlidingPuzzle.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bf39c439-e7ba-4bdf-b4c3-161855b6d317" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
