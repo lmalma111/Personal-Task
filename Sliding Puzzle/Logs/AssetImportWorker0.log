@@ -9161,3 +9161,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a747000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.372 seconds
+Callback registration failed. Increase kMaxCallback.
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+Obtained 31 stack frames.
+#0  0x0000019398ea60 in __pthread_kill
+#1  0x67360001938d3a20 in abort
+#2  0x774a800103b078c4 in __cxx_global_var_init.3
+#3  0x000001026e38d0 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x000001026e3520 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x000001026e4d64 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000103452438 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000103452d0c in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000102158b54 in CallbackArrayBase<void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform)>::Register(void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform), void const*)
+#9  0x00000102bf7fc4 in LoadDomainAndUserAssemblies()
+#10 0x00000102bf9b88 in LoadUserAssemblies()
+#11 0x000001030c9100 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#12 0x000001030d4a34 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#13 0x000001938163e8 in _dispatch_client_callout
+#14 0x37348001938259b0 in _dispatch_async_and_wait_invoke
+#15 0x8e208001938163e8 in _dispatch_client_callout
+#16 0x3e09800193824bb8 in _dispatch_main_queue_drain
+#17 0x236f8001938247cc in _dispatch_main_queue_callback_4CF
+#18 0xe236000193ae74ac in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#19 0xea35800193aa4c30 in __CFRunLoopRun
+#20 0xe6a000193aa3e0c in CFRunLoopRunSpecific
+#21 0xf47180019e23f000 in RunCurrentEventLoopInMode
+#22 0xa16900019e23ee3c in ReceiveNextEventCommon
+#23 0xcb7b00019e23eb94 in _BlockUntilNextEventMatchingListInModeWithFilter
+#24 0x27368001972fc970 in _DPSNextEvent
+#25 0xd66f800197aeedec in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#26 0x50130001972efcb8 in -[NSApplication run]
+#27 0xa5070001972c6f54 in NSApplicationMain
+#28 0x616f000103b2d698 in EditorMain(int, char const**)
+#29 0x00000103b2d9e4 in main
+#30 0x0000019363e0e0 in start
