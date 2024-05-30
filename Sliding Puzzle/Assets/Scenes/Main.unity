@@ -540,10 +540,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4a4a89e3c6a461da609a95c8ae6185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  M: 4
-  N: 4
+  M: 6
+  N: 6
   K: 2
-  puzzleImage: {fileID: 21300000, guid: 9676a253ffc0d412c8eb51a92016677d, type: 3}
+  puzzleImage: {fileID: 21300000, guid: 44ec7c4a210ef405485abd14f2f60104, type: 3}
   cellPrefab: {fileID: 4261271972530373102, guid: 6902ba87ef649487f9974e7d451b44cd, type: 3}
   fsm: {fileID: 474679652}
   space: 0.03
