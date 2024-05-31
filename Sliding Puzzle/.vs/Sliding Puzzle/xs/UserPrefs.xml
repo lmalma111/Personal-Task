@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{FF23C268-F9AA-A9CF-A1A6-EED15B35F8DE}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SlidingPuzzle.cs">
     <Files>
-      <File FileName="Assets/Scripts/SlidingPuzzle.cs" Line="197" Column="1" />
+      <File FileName="Assets/Scripts/SlidingPuzzle.cs" Line="121" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -39,3 +39,5 @@ MonoBehaviour:
     variableCategoryIDs: 00000000
   events:
   - ShuffleCompleted
+  - Swapping
+  - SwapCompleted
